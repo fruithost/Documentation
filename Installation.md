@@ -2,7 +2,7 @@
 The simplest way to install the fruithost infrastructure is, to execute following shell script:
 
 ```shell
-curl -o- https://raw.githubusercontent.com/fruithost/Installers/debian.sh | bash
+curl -o- https://raw.githubusercontent.com/fruithost/Installers/master/debian.sh | bash
 ```
 
 # Manual installation
