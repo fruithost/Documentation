@@ -41,6 +41,6 @@ Please visit the [Module-Documentation](#).
 
 ## Sample Repository
 Feel free to look into [our Modules Repository](https://github.com/fruithost/Modules). Here you can find a productive sample of:
-- [<modules>](https://github.com/fruithost/Modules/tree/master/faq) Folder
-- [modules.packages](https://github.com/fruithost/Modules/tree/master/modules.packages) Folder
-- [modules.list](https://github.com/fruithost/Modules/blob/master/modules.list) Folder
+- [`<modules>`](https://github.com/fruithost/Modules/tree/master/faq) Folder
+- [`modules.packages`](https://github.com/fruithost/Modules/tree/master/modules.packages) Folder
+- [`modules.list`](https://github.com/fruithost/Modules/blob/master/modules.list) Folder
