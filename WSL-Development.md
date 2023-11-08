@@ -48,19 +48,7 @@ We restart the network interfaces so that the set host name is adopted:
 #### Check IP-Address of Debian
 > ip address
 
-> bizzi@my:/$ ip address
-> 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
->    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
->    inet 127.0.0.1/8 scope host lo
->       valid_lft forever preferred_lft forever
->    inet6 ::1/128 scope host
->       valid_lft forever preferred_lft forever
-> 2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
->    link/ether 00:15:5d:35:6c:56 brd ff:ff:ff:ff:ff:ff
->    inet **172.24.71.136**/20 brd 172.24.79.255 scope global eth0
->       valid_lft forever preferred_lft forever
->    inet6 fe80::215:5dff:fe35:6c56/64 scope link
->      valid_lft forever preferred_lft forever
+![IMAGE_IP_ADDRESS]
 
 Make a note of this **IP address**, as this is the IP of the `Debian` system. The entire server can be reached from here.
 
@@ -142,6 +130,7 @@ Log into mysql:
 > FLUSH PRIVILEGES;
 > exit;
 
+[IMAGE_IP_ADDRESS]: https://github.com/fruithost/Documentation/blob/main/Images/IMAGE_IP_ADDRESS.PNG
 [IMAGE_HOST_CONFIG]: https://github.com/fruithost/Documentation/blob/main/Images/IMAGE_HOST_CONFIG.PNG
 [IMAGE_HOST_PANEL]: https://raw.githubusercontent.com/fruithost/Documentation/main/Images/IMAGE_HOST_PANEL.PNG
 
