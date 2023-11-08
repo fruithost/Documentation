@@ -142,5 +142,6 @@ Log into mysql:
 > FLUSH PRIVILEGES;
 > exit;
 
-[IMAGE_HOST_CONFIG]: -
-[IMAGE_HOST_PANEL]: -
+[IMAGE_HOST_CONFIG]: https://github.com/fruithost/Documentation/blob/main/Images/IMAGE_HOST_CONFIG.PNG
+[IMAGE_HOST_PANEL]: https://raw.githubusercontent.com/fruithost/Documentation/main/Images/IMAGE_HOST_PANEL.PNG
+
