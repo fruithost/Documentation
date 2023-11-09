@@ -63,7 +63,7 @@
             		*/
 		}
 		
-        public function preLoad() {
+        	public function preLoad() {
 			/*
                 		Is called up shortly before the module is actively used.
             		*/
