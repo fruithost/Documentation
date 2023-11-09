@@ -14,10 +14,7 @@ To get all localizable strings from fruithost, please type following command on 
 > fruithost language scan
 
 # Create a new Language
-To create an new Language file, please type follwing command:
-> fruithost language add xx_XX
-
-**xx_XX** is the language code for your country. For sample america has `en_US`, germany has `de_DE`,..
+After using `fruithost language scan` command, the files `$code.template` will be created. Copy this file and rename it to your given language code (for sample `en_US.po` for american english or `de_DE.po` for german).
 
 # How to Edit `.po` Files?
-All language files in the `/language/` directory can be edited with an gettext-based editor like [POEDIT](https://poedit.net).
+All language files in the `/panel/language/` and `/modules/<name>/language/` directory can be edited with an gettext-based editor like [POEDIT](https://poedit.net).
