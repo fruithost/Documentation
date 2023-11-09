@@ -57,34 +57,34 @@
 	class ExampleModule extends ModuleInterface {
 		public function init() {
 			/*
-                Is called up when the module is initialized by the module manager.
+                		Is called up when the module is initialized by the module manager.
 
-                Not all methods are available at this point and there is no guarantee that another module is already accessible here.
-            */
+               			Not all methods are available at this point and there is no guarantee that another module is already accessible here.
+            		*/
 		}
 		
         public function preLoad() {
 			/*
-                Is called up shortly before the module is actively used.
-            */
+                		Is called up shortly before the module is actively used.
+            		*/
 		}
 
 		public function load() {
 			/*
-                Is called up as soon as the module is actively used (for example by calling it up via the menu).
-            */
+                		Is called up as soon as the module is actively used (for example by calling it up via the menu).
+            		*/
 		}
 		
 		public function onPOST($data = []) {
 			/*
-                This is called when a POST request is fired on the module page.
-            */
+                		This is called when a POST request is fired on the module page.
+           		*/
 		}
 		
 		public function content() {
 			/*
-                The content of the module that is displayed/output in the UI.
-            */
+                		The content of the module that is displayed/output in the UI.
+            		*/
 		}
 	}
 ?>
