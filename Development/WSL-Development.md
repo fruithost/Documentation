@@ -130,7 +130,7 @@ Log into mysql:
 > FLUSH PRIVILEGES;
 > exit;
 
-[IMAGE_IP_ADDRESS]: https://github.com/fruithost/Documentation/blob/main/Images/IMAGE_IP_ADDRESS.PNG
-[IMAGE_HOST_CONFIG]: https://github.com/fruithost/Documentation/blob/main/Images/IMAGE_HOST_CONFIG.PNG
-[IMAGE_HOST_PANEL]: https://raw.githubusercontent.com/fruithost/Documentation/main/Images/IMAGE_HOST_PANEL.PNG
+[IMAGE_IP_ADDRESS]: ../Images/DEV/IMAGE_IP_ADDRESS.PNG
+[IMAGE_HOST_CONFIG]: ../Images/DEV/MAGE_HOST_CONFIG.PNG
+[IMAGE_HOST_PANEL]: ../Images/DEV/IMAGE_HOST_PANEL.PNG
 
