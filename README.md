@@ -1,5 +1,5 @@
 # Documentation
-📚 A full Documentation of fruithost and their components.
+📚 A full Documentation of ![](https://raw.githubusercontent.com/fruithost/Documentation/main/Images/LOGO_TEXT.png) **fruithost** and their components.
 
 ### Overview
 #### ⠀⠀[Installation](Installation/)
