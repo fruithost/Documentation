@@ -6,6 +6,9 @@ From now on, these files can be marked with additional parameters ([Shebang](htt
 Set the following [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) at the beginning of the line so that the script is executed with extended rights:
 > #!fruithost:permission:root
 
+When the [Daemon](https://github.com/fruithost/Binary) is running, the modules that are running **with extended rights** are marked:
+![EXECUTING_PREVIEW](../Images/Modules/EXECUTING_PREVIEW.PNG)
+
 ## Example
 #### Normal execution
 ```php
@@ -20,6 +23,8 @@ Set the following [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) at the
 	]);
 ?>
 ```
+##### Output
+![EXECUTING_DEFAULT](../Images/Modules/EXECUTING_DEFAULT.PNG)
 
 #### Execution with root rights
 ```php
@@ -35,3 +40,5 @@ Set the following [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) at the
 	]);
 ?>
 ```
+##### Output
+![EXECUTING_ROOT](../Images/Modules/EXECUTING_ROOT.PNG)
