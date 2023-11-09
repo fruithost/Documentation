@@ -3,24 +3,34 @@
 
 ### Overview
 #### ⠀⠀[Installation](Installation/)
- ⠀⠀ ⠀⠀ ⠀⠀[Automatic Installation](Installation/Automatic%20Installation.md)
- ⠀⠀ ⠀⠀ ⠀⠀[Manual Installation](Installation/Manual%20Installation.md)
+ ⠀⠀ ⠀⠀ ⠀⠀💬 [Automatic Installation](Installation/Automatic%20Installation.md)
+
+ ⠀⠀ ⠀⠀ ⠀⠀✋ [Manual Installation](Installation/Manual%20Installation.md)
 #### ⠀⠀[Configuration](Configuration/)
- ⠀⠀ ⠀⠀ ⠀⠀[Config](Configuration/Config.md)
- ⠀⠀ ⠀⠀ ⠀⠀[Security](Configuration/Security.md)
- ⠀⠀ ⠀⠀ ⠀⠀[Mail](Configuration/Mail.md)
- ⠀⠀ ⠀⠀ ⠀⠀[Debug-Mode](Configuration/Debug.md)
+ ⠀⠀ ⠀⠀ ⠀⠀🔧 [Config](Configuration/Config.md)⠀⠀⠀⠀⠀⠀⠀⠀<small>`.config.php`</small>
+
+ ⠀⠀ ⠀⠀ ⠀⠀🔒 [Security](Configuration/Security.md)⠀⠀⠀⠀⠀⠀⠀⠀<small>`.security.php`</small>
+
+ ⠀⠀ ⠀⠀ ⠀⠀📧 [Mail](Configuration/Mail.md)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<small>`.mail.php`</small>
+
+ ⠀⠀ ⠀⠀ ⠀⠀🔨 [Debug-Mode](Configuration/Debug.md)⠀⠀⠀⠀<small>`.DEBUG`</small>
 #### ⠀⠀[Development](Development/)
- ⠀⠀ ⠀⠀ ⠀⠀[GitHub](Development/GitHub.md)
- ⠀⠀ ⠀⠀ ⠀⠀[WSL-Development](Development/WSL-Development.md)
- ⠀⠀ ⠀⠀ ⠀⠀[WSL2](Development/WSL2.md)
+ ⠀⠀ ⠀⠀ ⠀⠀:octocat: [GitHub](Development/GitHub.md)
+
+ ⠀⠀ ⠀⠀ ⠀⠀🐧 [WSL-Development](Development/WSL-Development.md)
+
+ ⠀⠀ ⠀⠀ ⠀⠀📢 [WSL2](Development/WSL2.md)
 #### ⠀⠀⠀⠀[Languages](Languages/)
- ⠀⠀ ⠀⠀ ⠀⠀[Translations](Languages/Translations.md)
+ ⠀⠀ ⠀⠀ ⠀⠀🌏 [Translations](Languages/Translations.md)
 #### ⠀⠀⠀⠀[Modules](Modules/)
- ⠀⠀ ⠀⠀ ⠀⠀[Repositorys](Modules/Repositorys.md)
- ⠀⠀ ⠀⠀ ⠀⠀[Module Interface](Modules/Module%20Interface.md)
- ⠀⠀ ⠀⠀ ⠀⠀[Module Example](Modules/Module%20Example.md)
+ ⠀⠀ ⠀⠀ ⠀⠀📖 [Repositorys](Modules/Repositorys.md)
+
+ ⠀⠀ ⠀⠀ ⠀⠀📕 [Module Interface](Modules/Module%20Interface.md)
+
+ ⠀⠀ ⠀⠀ ⠀⠀📌 [Module Example](Modules/Module%20Example.md)
 #### ⠀⠀⠀⠀[Themes](Themes/)
+#### ⠀⠀⠀⠀[System](System/)
+ ⠀⠀ ⠀⠀ ⠀⠀📂 [Structure](System/Structure.md)
 
 
 # Installation
