@@ -27,8 +27,7 @@ Note that the next steps must be carried out **only** with the user `root`, as y
 
 #### Set a password for root
 > [!WARNING]
-> ❗ Only for **development** ❗
-> You will need the password later if you want to connect to the system with **MySQL** or the **SFTP** client.
+> This part is only for **development**. You will need the password later if you want to connect to the system with **MySQL** or the **SFTP** client.
 
 Enter the following command and follow the instructions.
 > passwd
