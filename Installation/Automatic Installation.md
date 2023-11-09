@@ -18,4 +18,4 @@ curl -o- https://raw.githubusercontent.com/fruithost/Installers/master/debian.sh
 Currently only the distribution `Debian` is supported. An installation on `Ubuntu` (or other derivatives) is possible, but may lead to package compatibility problems.
 
 > [!NOTE]
-> We recommend that you carry out the [installation manually](Manual Installation.md) if you are using an unsupported system.
+> We recommend that you carry out the [installation manually](Manual%20Installation.md) if you are using an unsupported system.
