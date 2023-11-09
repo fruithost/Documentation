@@ -96,16 +96,16 @@ A PHP file that is used/called as soon as the module is installed or uninstalled
 > [!WARNING]
 > Currently, these files are executed with root rights of the [Daemon](https://github.com/fruithost/Binary). The behavior may be changed in future versions.
 
-Um das Modul zu installieren gibt man über Shell folgenden Befehl ein:
+To install the module, enter the following command via Shell:
 > fruithost install <name>
 
-Um das Modul zu deinstallieren gibt man über Shell folgenden Befehl ein:
+To uninstall the module, enter the following command via Shell:
 > fruithost deinstall <name>
 
-Ein Modul kann mit folgendem Befehl aktiviert:
+A module can be activated with the following command:
 > fruithost enable <name>
 
-oder deaktiviert werden:
+or deactivated:
 > fruithost disable <name>
 
 ## `daemon.php`
