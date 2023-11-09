@@ -1,7 +1,7 @@
 # Module Permissions
 [Daemon](https://github.com/fruithost/Binary)-scripts of the modules (`setup/install.php` & `setup/deinstall.php` as well as `daemon.php`) are executed with the user web server by default. However, some operators may need extended access (root rights).
 
-From now on, these files can be marked with additional parameters ([Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))). As a result, these [daemon](https://github.com/fruithost/Binary) scripts are executed with root rights.
+Since `Version 1.0.1`, these files can be marked with additional parameters ([Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix))). As a result, these [daemon](https://github.com/fruithost/Binary) scripts are executed with root rights.
 
 Set the following [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) at the beginning of the line so that the script is executed with extended rights:
 > #!fruithost:permission:root
