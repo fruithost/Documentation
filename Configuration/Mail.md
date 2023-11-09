@@ -6,9 +6,9 @@ Path: `/etc/fruithost/.mail.php`
 ```php
 <?php
 	define('MAIL_EXTERNAL', true);
-	define('MAIL_HOSTNAME', 'smtp.yourhost.com');
+	define('MAIL_HOSTNAME', <hostname>);
 	define('MAIL_PORT', 	25);
-	define('MAIL_USERNAME', 'no-reply@yourhost.com');
-	define('MAIL_PASSWORD', '<Password>');
+	define('MAIL_USERNAME', <username>); // Mostly your E-Mail Address
+	define('MAIL_PASSWORD', <Password>);
 ?>
 ```
