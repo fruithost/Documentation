@@ -28,6 +28,8 @@
  ⠀⠀ ⠀⠀ ⠀⠀📕 [Module Interface](Modules/Module%20Interface.md)
 
  ⠀⠀ ⠀⠀ ⠀⠀📌 [Module Example](Modules/Module%20Example.md)
+
+ ⠀⠀ ⠀⠀ ⠀⠀💥 [Module Permissions](Modules/Module%20Permissions.md)
 #### ⠀⠀⠀⠀[Themes](Themes/)
 #### ⠀⠀⠀⠀[System](System/)
  ⠀⠀ ⠀⠀ ⠀⠀📂 [Structure](System/Structure.md)

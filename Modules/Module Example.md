@@ -93,8 +93,8 @@
 ## `setup/install.php` & `setup/deinstall.php`
 A PHP file that is used/called as soon as the module is installed or uninstalled by the system administrator. Database operations can be carried out here, for example.
 
-> [!WARNING]
-> Currently, these files are executed with root rights of the [Daemon](https://github.com/fruithost/Binary). The behavior may be changed in future versions.
+> [!INFO]
+> Currently, these files are executed with the rights of the `webserver` with `www-data`-user. If you want to execute these scripts with extended rights (`root`), take a look at [Module Permissions](Module%20Permissions.md).
 
 To install the module, enter the following command via Shell:
 > fruithost install <name>
