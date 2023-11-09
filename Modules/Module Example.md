@@ -93,7 +93,7 @@
 ## `setup/install.php` & `setup/deinstall.php`
 A PHP file that is used/called as soon as the module is installed or uninstalled by the system administrator. Database operations can be carried out here, for example.
 
-> [!INFO]
+> [!NOTE]
 > Currently, these files are executed with the rights of the `webserver` with `www-data`-user. If you want to execute these scripts with extended rights (`root`), take a look at [Module Permissions](Module%20Permissions.md).
 
 To install the module, enter the following command via Shell:
@@ -111,5 +111,5 @@ or deactivated:
 ## `daemon.php`
 This file is called up by the [Daemon](https://github.com/fruithost/Binary) every minute. Batch processing that does not take place in the user's UI can take place here, for example.
 
-> [!WARNING]
-> Currently, these file are executed with root rights of the [Daemon](https://github.com/fruithost/Binary). The behavior may be changed in future versions.
+> [!NOTE]
+> Currently, these files are executed with the rights of the `webserver` with `www-data`-user. If you want to execute these scripts with extended rights (`root`), take a look at [Module Permissions](Module%20Permissions.md).
