@@ -1,12 +1,8 @@
-# Automatic installation
-The simplest way to install the fruithost infrastructure is, to execute following shell script:
-
-```shell
-curl -o- https://raw.githubusercontent.com/fruithost/Installers/master/debian.sh | bash
-```
 
 # Manual installation
 To install all components manual, follow these steps:
+
+> **INFORMATION:** This document may be out of date.
 
 ### Update the system
 
