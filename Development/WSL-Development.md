@@ -26,6 +26,7 @@ First enter the command `wsl --user root` in the `Windows Terminal`. This starts
 Note that the next steps must be carried out **only** with the user `root`, as you need admin rights to set up the system.
 
 #### Set a password for root
+> [!WARNING]
 > ❗ Only for **development** ❗
 > You will need the password later if you want to connect to the system with **MySQL** or the **SFTP** client.
 

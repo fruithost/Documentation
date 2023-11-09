@@ -2,6 +2,7 @@
 # Manual installation
 To install all components manual, follow these steps:
 
+> [!IMPORTANT]
 > **INFORMATION:** This document may be out of date.
 
 ### Update the system
