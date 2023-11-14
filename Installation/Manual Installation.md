@@ -34,6 +34,12 @@ echo "127.0.0.1      $DOMAIN" >> /etc/hosts
 hostnamectl set-hostname "$DOMAIN"
 ```
 
+### Install Network-Tools
+```shell
+apt-get install lshw -y
+lshw -version
+```
+
 ### Install webserver (`Apache`, `nginx` is currently not supported!)
 ```shell
 # Webserver
