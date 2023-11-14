@@ -59,9 +59,9 @@ Follow the instructions below:
 https://github.com/fruithost/Documentation/blob/main/WSL2.md
 
 ### 4️⃣ [`Debian`]  Pre-Installation
-#### Install CURL
+#### Install CURL & Network-Tools
 > apt update
-> apt install curl
+> apt install curl lshw
 
 ### 5️⃣ [`fruithost`] Start the installer
 Enter the installation command (as already described in the normal [installation instructions](https://github.com/fruithost/Documentation/blob/main/Installation.md)) and follow the instructions:
