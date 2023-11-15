@@ -1,6 +1,5 @@
 # ToDo-List
 #### Panel
-- [ ] Upgrade to **Bootstrap 5**
 - [ ] `CoreAdmin->init` check permissions of modal requests (currently not planned how this will be implemented)
 - [ ] Adding more hookable `filter` and `actions` to the system
 - [ ] Create a documentation & list of the hook-system
@@ -20,5 +19,9 @@
 - [ ] Create a better code structure (class-based?)
 - [ ] Reimplement some methods with a better handling?
 
+## Finished
+#### Panel
+- [x] Upgrade to **Bootstrap 5**
+
 #### Modules
-- [ ] Upgrade to **Bootstrap 5**
+- [x] Upgrade to **Bootstrap 5**
