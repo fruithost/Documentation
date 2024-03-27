@@ -40,6 +40,9 @@ All informations and installations-instructions can be find in the [Documentatio
 
 [![INSTALL_NOW]](https://github.com/fruithost/Documentation/tree/main/Installation)
 
+# Community
+[![DISCORD]](https://discord.gg/8pTWckusSC)
+
 # Support us! ![Sponsors](https://img.shields.io/github/sponsors/fruithost?style=social)
 Donations are an important contribution to the development of OpenSource projects. With your donation you can help us to advance our project. Your support enables us to support the programming.
 
@@ -61,3 +64,4 @@ Feel free to help us with the developing!
 [CODE_OF_CONDUCT]: https://img.shields.io/badge/Code_of_Conduct-37a779?style=for-the-badge
 [CONTRIBUTING]: https://img.shields.io/badge/Contributing-37a779?style=for-the-badge
 [STYLING_GUIDELINES]: https://img.shields.io/badge/Styling_Guidelines-37a779?style=for-the-badge
+[DISCORD]: https://img.shields.io/badge/Discord-37a779?style=for-the-badge&logo=discord&color=%230d1117
