@@ -2,10 +2,10 @@
 
 ## General
 <details>
-  <summary><code class="language-php">init()</code></summary>
+  <summary><code class="language-php">init() : void</code></summary>
 </details>
 <details>
-  <summary><code class="language-php">preLoad()</code></summary>
+  <summary><code class="language-php">preLoad() : void</code></summary>
 </details>
 
 ## System
