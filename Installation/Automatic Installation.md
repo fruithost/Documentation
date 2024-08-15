@@ -11,7 +11,7 @@ apt-get install curl
 ## Install
 
 ```shell
-bash <(curl -o- https://update.fruithost.de/install || wget -O - https://update.fruithost.de/install)
+bash <(curl -L -o- https://update.fruithost.de/install || wget -O - https://update.fruithost.de/install)
 ```
 
 #### Compatibility
