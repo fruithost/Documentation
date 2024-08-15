@@ -9,6 +9,7 @@ apt-get install curl
 ```
 
 ## Install
+The installation **takes only ~1:30 minutes**, depending on the Internet connection and CPU/RAM of the target server.
 
 ```shell
 bash <(curl -L -o- https://update.fruithost.de/install || wget -O - https://update.fruithost.de/install)
