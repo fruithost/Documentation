@@ -1,7 +1,7 @@
 # Automatic installation
 The simplest way to install the fruithost infrastructure is, to execute following shell script:
 
-## Preparations
+## Preparations `Optional`
 Before the installation script can be used, `curl` must be installed:
 ```shell
 apt-get update
@@ -11,7 +11,7 @@ apt-get install curl
 ## Install
 
 ```shell
-curl -o- https://raw.githubusercontent.com/fruithost/Installers/master/debian.sh | bash
+bash <(curl -o- https://update.fruithost.de/install || wget -O - https://update.fruithost.de/install)
 ```
 
 #### Compatibility
