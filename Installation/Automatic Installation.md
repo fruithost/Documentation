@@ -21,7 +21,8 @@ Currently only the distribution `Ubuntu` and `Debian` is supported. An installat
 Following Linux-Distributions are fully checked:
 | Name | Version | Infos |
 |------|---------|-------|
-| Ubuntu | 22.04 (LTS) | ** ProFTPD-Modules not available |
+| Ubuntu | 22.04 (LTS) |  |
+| Ubuntu | 20.04.6 (LTS) | ** ProFTPD-Modules not available |
 
 > [!NOTE]
 > We recommend that you carry out the [installation manually](Manual%20Installation.md) if you are using an unsupported system.
