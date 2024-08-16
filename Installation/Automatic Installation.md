@@ -1,13 +1,6 @@
 # Automatic installation
 The simplest way to install the fruithost infrastructure is, to execute following shell script:
 
-## Preparations `Optional`
-Before the installation script can be used, `curl` must be installed:
-```shell
-apt-get update
-apt-get install curl
-```
-
 ## Install
 The installation **takes up to 15 minutes**, depending on the Internet connection and CPU/RAM of the target server.
 
