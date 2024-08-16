@@ -23,7 +23,7 @@ Following Linux-Distributions are fully checked:
 |--------------|------|---------|
 | ✅ | Ubuntu | 24.04 LTS (Noble Numbat) |
 | ✅ | Ubuntu | 22.04.4 LTS (Jammy Jellyfish) |
-| ⚠️ | Ubuntu* | 20.04.6 (LTS) |
+| ⚠️ | Ubuntu* | 20.04.6 LTS (Focal Fossa) |
 
 \* **ProFTPD** will not run here, bcause for these distributions are missing mods there are not on official ubuntu-repositorys.
 
