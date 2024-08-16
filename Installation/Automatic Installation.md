@@ -22,7 +22,7 @@ Following Linux-Distributions are fully checked:
 | Name | Version |
 |------|---------|
 | Ubuntu** | 24.04 (LTS) |
-| Ubuntu** | 22.04 (LTS) |
+| Ubuntu | 22.04.4 LTS (Jammy Jellyfish) |
 | Ubuntu** | 20.04.6 (LTS) |
 
 ** ProFTPD will not run here, bcause for these distributions are missing mods there are not on official ubuntu-repositorys.
