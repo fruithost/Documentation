@@ -7,9 +7,11 @@
 
  ⠀⠀ ⠀⠀ ⠀⠀✋ [Manual Installation](Installation/Manual%20Installation.md)
 #### ⠀⠀[Configuration](Configuration/)
- ⠀⠀ ⠀⠀ ⠀⠀🔧 [Config](Configuration/Config.md)⠀⠀⠀⠀⠀⠀⠀⠀<small>`.config.php`</small>
+ ⠀⠀ ⠀⠀ ⠀⠀💻 [Hostname](Configuration/Hostname.md)⠀⠀⠀⠀⠀⠀<small>`/etc/fruithost/config/apache2/panel.conf`</small>
+ 
+ ⠀⠀ ⠀⠀ ⠀⠀🔧 [Config](Configuration/Config.md)⠀⠀⠀⠀⠀⠀ ⠀ <small>`.config.php`</small>
 
- ⠀⠀ ⠀⠀ ⠀⠀🔒 [Security](Configuration/Security.md)⠀⠀⠀⠀⠀⠀⠀⠀<small>`.security.php`</small>
+ ⠀⠀ ⠀⠀ ⠀⠀🔒 [Security](Configuration/Security.md)⠀⠀⠀⠀⠀⠀⠀<small>`.security.php`</small>
 
  ⠀⠀ ⠀⠀ ⠀⠀📧 [Mail](Configuration/Mail.md)⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<small>`.mail.php`</small>
 
