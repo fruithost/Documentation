@@ -17,12 +17,14 @@ Following Linux-Distributions are fully checked:
 | ✅ | Ubuntu | 24.04 LTS (Noble Numbat) |
 | ✅ | Ubuntu | 22.04.4 LTS (Jammy Jellyfish) |
 | ⚠️ | Ubuntu* | 20.04.6 LTS (Focal Fossa) |
-| ⚠️ | Ubuntu*, ** | 18.04.6 LTS (Bionic Beaver) |
+| ⚠️ | Ubuntu*, **, *** | 18.04.6 LTS (Bionic Beaver) |
 
 
 \* **ProFTPD** will not run here, bcause for these distributions are missing mods there are not on official ubuntu-repositorys.
 
 ** Newer versions from **PHP** are currently not supported. Max Version is `7.2`!
+
+*** Newer versions from **MariaDB** are currently not supported. Max Version is `10.1.48`!
 
 > [!NOTE]
 > We recommend that you carry out the [installation manually](Manual%20Installation.md) if you are using an unsupported system.
