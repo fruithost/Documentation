@@ -21,6 +21,7 @@ Following Linux-Distributions are fully checked:
 
 
 \* **ProFTPD** will not run here, bcause for these distributions are missing mods there are not on official ubuntu-repositorys.
+
 ** Newer versions from **PHP** are currently not supported. Max Version is `7.2`!
 
 > [!NOTE]
