@@ -1,6 +1,12 @@
 # Automatic installation
 The simplest way to install the fruithost infrastructure is, to execute following shell script:
 
+## Pre-Installation
+```shell
+apt update
+apt install curl wget
+```
+
 ## Install
 The installation **takes up to 15 minutes**, depending on the Internet connection and CPU/RAM of the target server.
 
@@ -17,6 +23,9 @@ Currently only the distribution `Ubuntu` and `Debian` is supported. An installat
 Following Linux-Distributions can be used:
 | Compatiblity | Name | Version |
 |--------------|------|---------|
+| ✅ | Debian | 12.5 (bookworm) |
+| ✅ | Debian | 13 (trixie) |
+|     |        |       |
 | ✅ | Ubuntu | 24.04 LTS (Noble Numbat) |
 | ✅ | Ubuntu | 22.04.4 LTS (Jammy Jellyfish) |
 | ⚠️ | Ubuntu* | 20.04.6 LTS (Focal Fossa) |
