@@ -15,7 +15,7 @@
 
  ⠀⠀ ⠀⠀ ⠀⠀🔨 [Debug-Mode](Configuration/Debug.md)⠀⠀⠀⠀<small>`.DEBUG`</small>
 #### ⠀⠀[Development](Development/)
- ⠀⠀ ⠀⠀ ⠀⠀:octocat: [GitHub](Development/GitHub.md)
+ ⠀⠀ ⠀⠀ ⠀⠀🔀 [GitHub](Development/GitHub.md)
 
  ⠀⠀ ⠀⠀ ⠀⠀🐧 [WSL-Development](Development/WSL-Development.md)
 
