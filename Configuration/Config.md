@@ -15,6 +15,7 @@ Path: `/etc/fruithost/.config.php`
 
 	# Paths
 	define('HOST_PATH',			'/var/fruithost/users/');
+	define('CONFIG_PATH',			'/var/fruithost/config/');	# @since 1.0.4
 	define('LOG_PATH',			'/var/fruithost/logs/');
 ?>
 ```
