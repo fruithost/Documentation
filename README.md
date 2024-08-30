@@ -34,7 +34,7 @@
  ⠀⠀ ⠀⠀ ⠀⠀💥 [Module Permissions](Modules/Module%20Permissions.md)
 #### ⠀⠀⠀⠀[Themes](Themes/)
 #### ⠀⠀⠀⠀[System](System/)
-          🔑 [Permissions](System/Permissions.md)
+ ⠀⠀ ⠀⠀ ⠀⠀🔑 [Permissions](System/Permissions.md)
            
  ⠀⠀ ⠀⠀ ⠀⠀📂 [Structure](System/Structure.md)
 
