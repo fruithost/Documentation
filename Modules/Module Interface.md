@@ -3,9 +3,34 @@
 ## General
 <details>
   <summary><code class="language-php">init() : void</code></summary>
+  <p>This method is called when the module is initialized.</p>
+  
+  ```php
+protected function init() : void {
+		/* Override Me */
+}
+  ```
 </details>
 <details>
   <summary><code class="language-php">preLoad() : void</code></summary>
+</details>
+<details>
+  <summary><code class="language-php">load($submodule = null) : void</code></summary>
+</details>
+<details>
+  <summary><code class="language-php">onPost($data = []) : void</code></summary>
+</details>
+<details>
+  <summary><code class="language-php">onUpdate($data = []) : ?string</code></summary>
+</details>
+<details>
+  <summary><code class="language-php">onSave($data = []) : ?string</code></summary>
+</details>
+<details>
+  <summary><code class="language-php">frame() : mixed</code></summary>
+</details>
+<details>
+  <summary><code class="language-php">content($submodule = null) : void</code></summary>
 </details>
 
 ## System
