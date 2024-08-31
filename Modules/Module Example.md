@@ -32,6 +32,7 @@
 	"category":		<NavigationCategory>,
 	"icon":			<NavigationIcon>,
 	"order":		<NavigationOrder>,
+	"permissions":		<Permissions>,
 	"description":	"This is an description.",
 	"author":		{
 		"name":		"Your Name",
@@ -49,6 +50,7 @@
 | `<NavigationCategory>` | `string` | Possible values: `ACCOUNT_MANAGEMENT`, `DATABASE_MANAGEMENT`, `DOMAIN_MANAGEMENT`, `MAIL_MANAGEMENT`, `FTP_MANAGEMENT`, `HOSTING_MANAGEMENT`, `EXTENDED_MANAGEMENT`, `SUPPORT_MANAGEMENT`, `ADMIN_MANAGEMENT`, `SERVER_MANAGEMENT` |
 | `<NavigationIcon>` | `string` | A `name` of an [Material Icon](https://fonts.google.com/icons?icon.set=Material+Icons) |
 | `<NavigationOrder>` | `int` | The position of the module in the navigation |
+| `<Permissions>` | `array` | A list of [Permissions](https://github.com/fruithost/Documentation/blob/main/System/Permissions.md) that are allowed to see the module. |
 
 ## `module.php`
 
