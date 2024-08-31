@@ -1,7 +1,7 @@
 # Module Interface
 
 ## General
-<details>
+<details open="true">
   <summary><code class="language-php">init() : void</code></summary>
   <p>This method is called when the module is initialized.</p>
   
