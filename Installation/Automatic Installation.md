@@ -3,15 +3,14 @@ The simplest way to install the fruithost infrastructure is, to execute followin
 
 ## Pre-Installation
 ```shell
-apt update
-apt install curl wget
+apt update && apt install curl
 ```
 
 ## Install
 The installation **takes up to 15 minutes**, depending on the Internet connection and CPU/RAM of the target server.
 
 ```shell
-bash <(curl -L -o- https://update.fruithost.de/install || wget -O - https://update.fruithost.de/install)
+bash <(curl -L -s -o- https://update.fruithost.de/install)
 ```
 
 #### Requirements
