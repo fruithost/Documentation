@@ -7,6 +7,7 @@ Set the following [Shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) at the
 > #!fruithost:permission:root
 
 When the [Daemon](https://github.com/fruithost/Binary) is running, the modules that are running **with extended rights** are marked:
+
 ![EXECUTING_PREVIEW](../Images/Modules/EXECUTING_PREVIEW.PNG)
 
 ## Example
