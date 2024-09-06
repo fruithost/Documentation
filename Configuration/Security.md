@@ -12,6 +12,6 @@ Path: `/etc/fruithost/.security.php`
 
 	define('MYSQL_PASSWORTD_SALT',	<salt>);
 	define('RESET_PASSWORD_SALT',	<salt>);
-	define('ENCRYPTION_SALT',	    <salt>);
+	define('ENCRYPTION_SALT',	<salt>);
 ?>
 ```
