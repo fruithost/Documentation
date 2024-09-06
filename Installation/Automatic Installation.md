@@ -14,7 +14,7 @@ bash <(curl -L -s -o- https://update.fruithost.de/install)
 ```
 
 #### Requirements
-The fruithost-Panel needs minumum `PHP 8.1`.
+The fruithost-Panel needs **minimum** `PHP 8.1`.
 
 #### Compatibility
 Currently only the distribution `Ubuntu` and `Debian` is supported. An installation on other derivatives is possible, but may lead to package compatibility problems.
