@@ -14,6 +14,10 @@ bash <(curl -L -s -o- https://update.fruithost.de/install)
 ```
 
 #### Requirements
+> [!NOTE]
+> 
+> This refers exclusively to the web panel; user-specific PHP versions for hosting users can be changed at any time.
+> 
 The fruithost-Panel needs **minimum** `PHP 8.1`.
 
 #### Compatibility
@@ -22,8 +26,9 @@ Currently only the distribution `Ubuntu` and `Debian` is supported. An installat
 Following Linux-Distributions can be used:
 | Compatiblity | Name | Version |
 |--------------|------|---------|
-| ✅ | Debian | 12.5 (bookworm) |
+|     |        |       |
 | ✅ | Debian | 13 (trixie) |
+| ✅ | Debian | 12.5 (bookworm) |
 |     |        |       |
 | ✅ | Ubuntu | 24.04 LTS (Noble Numbat) |
 | ✅ | Ubuntu | 22.04.4 LTS (Jammy Jellyfish) |
