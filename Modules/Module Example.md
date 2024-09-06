@@ -23,6 +23,10 @@
 >⠀⠀⠀⠀⠀⠀⠀📄 `daemon.php`
 >
 >⠀⠀⠀⠀⠀⠀⠀📄 `module.php`
+>
+>⠀⠀⠀⠀⠀⠀⠀📄 `CHANGELOG.md`⠀⠀⠀⠀⠀ <sub><i>`Optional`</i></sub>
+>
+>⠀⠀⠀⠀⠀⠀⠀📄 `README.md`⠀⠀⠀⠀⠀⠀⠀⠀<sub><i>`Optional`</i></sub>
 
 ## `module.package`
 ```json
@@ -39,7 +43,13 @@
 		"email":	<email>,
 		"url":		<url>
 	},
-	"repository":	<github-url>
+	"repository":	<github-url>,
+	"screenshots": [
+		{
+			"file": <image>
+			"description": "Screenshost description"
+		}
+	]
 }
 ```
 
@@ -59,37 +69,49 @@
 	use fruithost\ModuleInterface;
 
 	class ExampleModule extends ModuleInterface {
-		public function init() {
-			/*
-                		Is called up when the module is initialized by the module manager.
+		/* System Callbacks */
+			public function init() : void {
+				/*
+	                		Is called up when the module is initialized by the module manager.
+	
+	               			Not all methods are available at this point and there is no guarantee that another module is already accessible here.
+	            		*/
+			}
+			
+	        	public function preLoad() : void {
+				/*
+	                		Is called up shortly before the module is actively used.
+	            		*/
+			}
+	
+			public function load() : void {
+				/*
+	                		Is called up as soon as the module is actively used (for example by calling it up via the menu).
+	            		*/
+			}
 
-               			Not all methods are available at this point and there is no guarantee that another module is already accessible here.
-            		*/
-		}
-		
-        	public function preLoad() {
-			/*
-                		Is called up shortly before the module is actively used.
-            		*/
-		}
+		/* Displaying Contents */
+			public function frame() : ?string {
+				/*
+	                		The URL of an Frame of the module that is displayed in the UI.
+					For a simple sample: If you want to display external Services like PHPMyAdmin or a Webmailer on the Panel.
+	            		*/
+	
+				return 'https://example.com/phpmyadmin';
+			}
+			
+			public function content() {
+				/*
+	                		The content of the module that is displayed/output in the UI.
+	            		*/
+			}
 
-		public function load() {
-			/*
-                		Is called up as soon as the module is actively used (for example by calling it up via the menu).
-            		*/
-		}
-		
-		public function onPOST($data = []) {
-			/*
-                		This is called when a POST request is fired on the module page.
-           		*/
-		}
-		
-		public function content() {
-			/*
-                		The content of the module that is displayed/output in the UI.
-            		*/
-		}
+		/* Handling Requests or Data */
+			public function onPOST($data = []) : void {
+				/*
+	                		This is called when a POST request is fired on the module page.
+	           		*/
+			}
 	}
 ?>
 ```
