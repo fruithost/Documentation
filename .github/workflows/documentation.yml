@@ -17,6 +17,7 @@ jobs:
 
       # Build steps
       - name: Build docs
+        if: github.event_name == 'push'
         run: |
           git clone --depth=1 https://github.com/fruithost/Panel.git src-panel
           git clone --depth=1 https://github.com/php/doc-base.git doc-base
