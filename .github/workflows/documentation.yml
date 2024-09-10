@@ -20,7 +20,10 @@ jobs:
         uses: shivammathur/setup-php@2.31.1
         with:
            php-version: '8.3'
-           
+
+      - name: Print PHP version
+        run: echo ${{ steps.setup-php.outputs.php-version }}
+  
       # Build steps
       - name: Build docs
         if: github.event_name == 'push'
