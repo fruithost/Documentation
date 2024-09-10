@@ -21,26 +21,30 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v2
               
-            - name: Install PHP
+            - name: Setup PHP
               uses: shivammathur/setup-php@v2
               with:
-                  php-version: 8.1
-                  extensions: curl, gd, pdo_mysql, json, mbstring, pcre, session
-                  ini-values: post_max_size=256M
-                  coverage: none
+                  php-version: ${{ matrix.php-version }}
+                  coverage: ${{ matrix.coverage }}
                   tools: composer:v2
-        
+                  ini-values: date.timezone='UTC'
+            
             - name: Get Sources
               run: |
                 git clone https://github.com/fruithost/Panel.git ./src/
                 git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/
+                git clone https://github.com/clean/phpdoc-md.git ./phpdoc/
+                
+            - name: Install dependencies
+              run: |
+                  cd ./phpdoc/ && composer install --prefer-dist --no-interaction --no-progress
                     
             - name: Generating documentation...
-              uses: impresscms-dev/generate-phpdocs-with-clean-phpdoc-md-action@v1.0.0
+              uses: ./phpdoc/
               with:
                   class_root_namespace: src\
                   included_classes: src\**
-                  output_path: ./docs/
+                  output_path: ./build/
 
             - name: Commit changes
               if: github.event_name == 'push'
