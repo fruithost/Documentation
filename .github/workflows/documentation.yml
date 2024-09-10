@@ -6,7 +6,11 @@ on:
 jobs:
     run-tests:
         runs-on: ubuntu-latest
-
+        
+        env: 
+              CI_COMMIT_MESSAGE: Build Module-Packages
+              CI_COMMIT_AUTHOR: fruithost | Modules Builder
+              
         strategy:
             matrix:
                 php: [8.1]
@@ -30,3 +34,14 @@ jobs:
               uses: phpDocumentor/phpDocumentor@master
               with:
                 args: -d src -t build/docs
+
+            - name: Commit changes
+              if: github.event_name == 'push'
+              run: |
+                set -e
+                cd $GITHUB_WORKSPACE/${{github.repository}}.wiki
+                cp -r $GITHUB_WORKSPACE/${{github.repository}}/wiki/* .
+                git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+                git config --global user.email "fruithost@users.noreply.github.com"
+                git add .
+                git diff-index --quiet HEAD || git commit -m "${{ env.CI_COMMIT_MESSAGE }}" && git push
