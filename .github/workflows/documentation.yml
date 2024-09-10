@@ -22,6 +22,10 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v2
 
+            - name: Get Sources
+              run: |
+                git clone https://github.com/fruithost/Panel.git src
+                    
             - name: Generate API docs
               uses: phpDocumentor/phpDocumentor@master
               with:
