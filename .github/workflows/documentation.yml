@@ -20,14 +20,17 @@ jobs:
                 git clone https://github.com/fruithost/Panel.git ./src/
                 git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/                                 
                        
-            - name: Update wiki with PHP project documentation
-              uses: impresscms-dev/phpdocs-wiki-update-action@v2.2.20
+            - name: Generate HTML from Markdown
+              uses: ldeluigi/markdown-docs@latest
               with:
-                  engine: clean/phpdoc-md
-                  class_root_namespace: fruithost
-                  setup_php: true
-                  include: |
-                    src\**
+                src: ./src/
+                dst: ./build/
+                title: fruithost
+                language: en
+                icon: library
+                primary-color: indigo
+                secondary-color: indigo
+                hide-repository: false
                     
             - name: Commit changes
               if: github.event_name == 'push'
