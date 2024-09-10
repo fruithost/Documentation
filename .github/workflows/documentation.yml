@@ -24,7 +24,7 @@ jobs:
               uses: ldeluigi/markdown-docs@latest
               with:
                 src: ./src/
-                dst: ./build/
+                dst: ./wiki/
                 title: fruithost
                 language: en
                 icon: library
@@ -35,8 +35,6 @@ jobs:
             - name: Commit changes
               if: github.event_name == 'push'
               run: |
-                set -e
-                cp ./build/ ./wiki/
                 git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
                 git config --global user.email "fruithost@users.noreply.github.com"
                 git add .
