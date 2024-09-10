@@ -38,14 +38,25 @@ jobs:
             - name: Install dependencies
               run: |
                   cd ./phpdoc/ && composer install --prefer-dist --no-interaction --no-progress
+
+            - name: Create temporary Config file
+              run: |
+                    touch ./config.php
+                    echo "<?php" >> ./config.php
+                    echo "return (object)[" >> ./config.php
+                    echo "'rootNamespace' => 'Clean\PhpDocMd\Example'," >> ./config.php
+                    echo "'destDirectory' => 'docs'," >> ./config.php
+                    echo "'format' => 'github'," >> ./config.php
+                    echo "'destDirectory' => 'docs'," >> ./config.php
+                    echo "'classes' => [" >> ./config.php
+                    echo "'src\**'" >> ./config.php
+                    echo "]];" >> ./config.php
                     
             - name: Generating documentation...
-              uses: ./phpdoc/
-              with:
-                  class_root_namespace: src\
-                  included_classes: src\**
-                  output_path: ./build/
-
+              run: |
+                  ./phpdoc/bin/phpdoc-md -h
+                  ./phpdoc/bin/phpdoc-md ./config.php
+             
             - name: Commit changes
               if: github.event_name == 'push'
               run: |
