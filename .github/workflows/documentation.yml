@@ -3,18 +3,19 @@ on:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
 jobs:
   build:
     runs-on: ubuntu-latest
+    env: 
+      CI_COMMIT_MESSAGE: Build Documentation
+      CI_COMMIT_AUTHOR: fruithost | Documentation Builder
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          path: 'it'
+          path: 'en'
 
+      # Build steps
       - name: Build docs
         run: |
           git clone --depth=1 https://github.com/fruithost/Panel.git src-panel
