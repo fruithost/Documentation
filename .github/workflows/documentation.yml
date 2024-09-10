@@ -29,9 +29,6 @@ jobs:
                   ini-values: post_max_size=256M
                   coverage: none
                   tools: composer:v2
-
-            - name: Install Composer dependencies (with dev)
-              run: composer install --no-progress --prefer-dist --optimize-autoloader
         
             - name: Get Sources
               run: |
