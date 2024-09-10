@@ -28,23 +28,19 @@ jobs:
 
             - name: Get Sources
               run: |
-                git clone https://github.com/fruithost/Panel.git $GITHUB_WORKSPACE/src/
-                git clone https://github.com/fruithost/Documentation.wiki.git $GITHUB_WORKSPACE/wiki/
+                git clone https://github.com/fruithost/Panel.git ./src/
+                git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/
                     
             - name: Generate API docs
               uses: phpDocumentor/phpDocumentor@master
               with:
-                args: -d "$GITHUB_WORKSPACE/src/" -t "$GITHUB_WORKSPACE/build/"
+                args: -d ./src/ -t ./build/
 
             - name: Commit changes
               if: github.event_name == 'push'
               run: |
                 set -e
-                ls $GITHUB_WORKSPACE/
-                ls $GITHUB_WORKSPACE/wiki/
-                ls $GITHUB_WORKSPACE/build/
-                cd $GITHUB_WORKSPACE/wiki/
-                cp $GITHUB_WORKSPACE/build/ $GITHUB_WORKSPACE/wiki/
+                cp ./build/ ./wiki/
                 git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
                 git config --global user.email "fruithost@users.noreply.github.com"
                 git add .
