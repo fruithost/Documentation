@@ -47,7 +47,11 @@ jobs:
                     echo "'classes' => [" >> ./config.php
                     echo "'src\**'" >> ./config.php
                     echo "]];" >> ./config.php
-                    
+                                 
+            - name: Install dependencies
+              run: |
+                  composer install --working-dir=./phpdoc/ --prefer-dist --no-interaction --no-progress
+                  
             - name: Generating documentation...
               run: |
                   ./phpdoc/bin/phpdoc-md -h
