@@ -22,7 +22,7 @@ jobs:
               uses: actions/checkout@v2
               
             - name: Install PHP
-              uses: shivammathur/setup-php@v2.2
+              uses: shivammathur/setup-php@v2
               with:
                   php-version: 8.1
                   extensions: curl, gd, pdo_mysql, json, mbstring, pcre, session
