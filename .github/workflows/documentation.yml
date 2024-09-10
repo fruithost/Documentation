@@ -37,5 +37,6 @@ jobs:
               run: |
                 git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
                 git config --global user.email "fruithost@users.noreply.github.com"
+                cd ./wiki/
                 git add .
                 git diff-index --quiet HEAD || git commit -m "${{ env.CI_COMMIT_MESSAGE }}" && git push
