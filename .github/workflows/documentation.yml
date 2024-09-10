@@ -19,24 +19,3 @@ jobs:
               run: |
                 git clone https://github.com/fruithost/Panel.git ./src/
                 git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/                                 
-                       
-            - name: Generate HTML from Markdown
-              uses: ldeluigi/markdown-docs@latest
-              with:
-                src: ./src/
-                dst: ./wiki/
-                title: fruithost
-                language: en
-                icon: library
-                primary-color: indigo
-                secondary-color: indigo
-                hide-repository: false
-                    
-            - name: Commit changes
-              if: github.event_name == 'push'
-              run: |
-                git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
-                git config --global user.email "fruithost@users.noreply.github.com"
-                cd ./wiki/
-                git add .
-                git diff-index --quiet HEAD || git commit -m "${{ env.CI_COMMIT_MESSAGE }}" && git push
