@@ -1,0 +1,1500 @@
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: $name\n"
+
+
+msgid "Create Cronjob"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Change Cronjob"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Create New"
+msgstr ""
+
+msgid "Delete selected"
+msgstr ""
+
+msgid "Unknown error occurs!"
+msgstr ""
+
+msgid "Please enter a valid minute!"
+msgstr ""
+
+msgid "Please enter a valid hour!"
+msgstr ""
+
+msgid "Please enter a valid day!"
+msgstr ""
+
+msgid "Please enter a valid month!"
+msgstr ""
+
+msgid "Please enter a valid weekday!"
+msgstr ""
+
+msgid "Please enter a valid PHP script!"
+msgstr ""
+
+msgid "Please enter a valid URL!"
+msgstr ""
+
+msgid "Please enter a valid action!"
+msgstr ""
+
+msgid "Please select an Cronjob you want to delete!"
+msgstr ""
+
+msgid "An unknown error has occurred. Please retry your action!"
+msgstr ""
+
+msgid "You have no permissions to delete the Cronjob <strong>%s_%s<\/strong>!"
+msgstr ""
+
+msgid "Not named"
+msgstr ""
+
+msgid "Following Cronjobs was deleted: <strong><br \/>- %s<\/strong>"
+msgstr ""
+
+msgid "No Cronjobs available!"
+msgstr ""
+
+msgid "Please create a new cronjob to administer it."
+msgstr ""
+
+msgid "Create new Cronjob"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Configuration"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Never running"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Name of your Job"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Common Settings"
+msgstr ""
+
+msgid "Each Minute"
+msgstr ""
+
+msgid "All 5 Minutes"
+msgstr ""
+
+msgid "Each 30 Minutes"
+msgstr ""
+
+msgid "Each Hour"
+msgstr ""
+
+msgid "Each 12 Hours"
+msgstr ""
+
+msgid "Each Day"
+msgstr ""
+
+msgid "Each Week"
+msgstr ""
+
+msgid "On the 1st and 15th of the Month"
+msgstr ""
+
+msgid "Each Month"
+msgstr ""
+
+msgid "Each Year"
+msgstr ""
+
+msgid "Minute"
+msgstr ""
+
+msgid "Each two Minutes"
+msgstr ""
+
+msgid "Each Five Minutes"
+msgstr ""
+
+msgid "Each Ten Minutes"
+msgstr ""
+
+msgid "Each Fifteen Minutes"
+msgstr ""
+
+msgid "Each Thirty Minutes"
+msgstr ""
+
+msgid "Minutes"
+msgstr ""
+
+msgid "At the beginning of the hour"
+msgstr ""
+
+msgid "At one quarter past the hour"
+msgstr ""
+
+msgid "At half past the hour"
+msgstr ""
+
+msgid "At one quarter until the hour"
+msgstr ""
+
+msgid "Hour"
+msgstr ""
+
+msgid "Every Hour"
+msgstr ""
+
+msgid "Every Other Hour"
+msgstr ""
+
+msgid "Every Third Hour"
+msgstr ""
+
+msgid "Every Fourth Hour"
+msgstr ""
+
+msgid "Every Sixth Hour"
+msgstr ""
+
+msgid "Every Twelve Hours"
+msgstr ""
+
+msgid "Hours"
+msgstr ""
+
+msgid "Day"
+msgstr ""
+
+msgid "Every Day"
+msgstr ""
+
+msgid "Every Other Day"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Every Month"
+msgstr ""
+
+msgid "Every Other Month"
+msgstr ""
+
+msgid "Every Third Month"
+msgstr ""
+
+msgid "Every Six Months"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Weekday"
+msgstr ""
+
+msgid "Every Weekday"
+msgstr ""
+
+msgid "Every Weekend Day"
+msgstr ""
+
+msgid "Every Monday, Wednesday, and Friday"
+msgstr ""
+
+msgid "Every Tuesday and Thursday"
+msgstr ""
+
+msgid "Weekdays"
+msgstr ""
+
+msgid "Execute PHP Script"
+msgstr ""
+
+msgid "Please Select"
+msgstr ""
+
+msgid "Arguments"
+msgstr ""
+
+msgid "Call URL"
+msgstr ""
+
+msgid "Create FTP Account"
+msgstr ""
+
+msgid "Change FTP Account"
+msgstr ""
+
+msgid "Please select the FTP account you want to delete!"
+msgstr ""
+
+msgid "You can't delete your main account!"
+msgstr ""
+
+msgid "You have no permissions to delete the account <strong>%s_%s<\/strong>!"
+msgstr ""
+
+msgid "Following users was deleted: <strong>%s<\/strong>!"
+msgstr ""
+
+msgid "An error has occurred. Please reload the page and try again!"
+msgstr ""
+
+msgid "You have no permission to this FTP account!"
+msgstr ""
+
+msgid "Please enter a password for the selected ftp account!"
+msgstr ""
+
+msgid "Please select an valid path for the account!"
+msgstr ""
+
+msgid "The selected path doesn't exists!"
+msgstr ""
+
+msgid "Please enter a username for your ftp account!"
+msgstr ""
+
+msgid "Please enter a password for your ftp account!"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+msgid "Please select"
+msgstr ""
+
+msgid "No FTP accounts available!"
+msgstr ""
+
+msgid "Please create a new account to administer it."
+msgstr ""
+
+msgid "Create new Account"
+msgstr ""
+
+msgid "Directory"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "New Password"
+msgstr ""
+
+msgid "User-ID"
+msgstr ""
+
+msgid "Settings was successfully saved!"
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "User selectable Themes"
+msgstr ""
+
+msgid "No Themes available!"
+msgstr ""
+
+msgid "Please install some Themes."
+msgstr ""
+
+msgid "Create protected Directory"
+msgstr ""
+
+msgid "Change protected Directory"
+msgstr ""
+
+msgid "Create User"
+msgstr ""
+
+msgid "Change User"
+msgstr ""
+
+msgid "You have no permissions to delete the User <strong>%s<\/strong>!"
+msgstr ""
+
+msgid "Following Users was deleted: <strong><br \/>- %s<\/strong>"
+msgstr ""
+
+msgid "Please select an protected Directory you want to delete!"
+msgstr ""
+
+msgid "You have no permissions to delete the directory <strong>%s_%s<\/strong>!"
+msgstr ""
+
+msgid "Following protected directorys was deleted: <strong><br \/>- %s<\/strong>"
+msgstr ""
+
+msgid "Please enter a message as login information!"
+msgstr ""
+
+msgid "Please select an valid path!"
+msgstr ""
+
+msgid "You have no permission to this entry!"
+msgstr ""
+
+msgid "You have no access to this protected Directory!"
+msgstr ""
+
+msgid "Please enter a username!"
+msgstr ""
+
+msgid "Please enter a password!"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "No Users available!"
+msgstr ""
+
+msgid "Please add an new User to the protected Directory to administer it."
+msgstr ""
+
+msgid "No protected Directorys available!"
+msgstr ""
+
+msgid "Please create a new protected Directory to administer it."
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid "Live"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Access denied!"
+msgstr ""
+
+msgid "You have no permissions for this page."
+msgstr ""
+
+msgid "For Domain"
+msgstr ""
+
+msgid "Global"
+msgstr ""
+
+msgid "PHP.ini was successfully saved."
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "This property is deprecated!"
+msgstr ""
+
+msgid "DEPRECATED"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Possible Modifiers"
+msgstr ""
+
+msgid "Possible Operators"
+msgstr ""
+
+msgid "Possible Flags"
+msgstr ""
+
+msgid "Problem!"
+msgstr ""
+
+msgid "Domain \"<strong>%s<\/strong>\" currently not accessible."
+msgstr ""
+
+msgid "Create Domain"
+msgstr ""
+
+msgid "Please select the Domains you want to delete!"
+msgstr ""
+
+msgid "You have no permissions to delete the Domain <strong>%s<\/strong>!"
+msgstr ""
+
+msgid "Following Domains will be deleted: <strong>%s<\/strong>!"
+msgstr ""
+
+msgid "Please enter a domain name!"
+msgstr ""
+
+msgid "Domain already exists."
+msgstr ""
+
+msgid "Please select an valid home directory!"
+msgstr ""
+
+msgid "Please select an existing home directory!"
+msgstr ""
+
+msgid "Domain name"
+msgstr ""
+
+msgid "Home directory"
+msgstr ""
+
+msgid "Create a new home directory"
+msgstr ""
+
+msgid "Use existing home directory"
+msgstr ""
+
+msgid "The domain must refer to the IP Address <strong>%s<\/strong> or be managed by our <a href=\"%s\" target=\"_blank\">nameserver<\/a> (DNS). Adding domains does not replace the domain registration!"
+msgstr ""
+
+msgid "No Domains available!"
+msgstr ""
+
+msgid "Please create a new domain to administer it."
+msgstr ""
+
+msgid "Create new Domain"
+msgstr ""
+
+msgid "Unknown Error"
+msgstr ""
+
+msgid "Deleting"
+msgstr ""
+
+msgid "Your website is not secure"
+msgstr ""
+
+msgid "Data transferred between your visitors and website is unencrypted and may be intercepted."
+msgstr ""
+
+msgid "Connection is secure"
+msgstr ""
+
+msgid "Data transferred between your visitors and website is encrypted."
+msgstr ""
+
+msgid "Website will be set up"
+msgstr ""
+
+msgid "Your website is still being set up for encryption."
+msgstr ""
+
+msgid "Create for %s"
+msgstr ""
+
+msgid "View Domain: %s"
+msgstr ""
+
+msgid "You have no access to this domain!"
+msgstr ""
+
+msgid "A certificate will be currently created for the domain <strong>%s<\/strong>!"
+msgstr ""
+
+msgid "We are installing your new <strong>Let's Encrypt<\/strong> certificate for <strong>%s<\/strong> and automatically redirecting traffic to your site over a secure HTTPS connection. You should see this reflected on your website <strong>within 15 minutes<\/strong>."
+msgstr ""
+
+msgid "We are installing your new <strong>Self-Signed<\/strong> certificate for <strong>%s<\/strong> and automatically redirecting traffic to your site over a secure HTTPS connection. You should see this reflected on your website <strong>within 15 minutes<\/strong>."
+msgstr ""
+
+msgid "You cant delete the certificate!"
+msgstr ""
+
+msgid "The certificate for the domain <strong>%s<\/strong> was successfully deleted."
+msgstr ""
+
+msgid "An error has occurred. Please repeat the action!"
+msgstr ""
+
+msgid "The secure certificate for <strong>%s<\/strong> has been reconfigured! Note that these changes can take <strong>up to 15 minutes<\/strong> to be pushed out to the server."
+msgstr ""
+
+msgid "Please insert a certificate, the entry must not be empty!"
+msgstr ""
+
+msgid "Please insert a private key, the entry must not be empty!"
+msgstr ""
+
+msgid "The specified certificate is not valid:<br\/>' . openssl_error_string()));\r\n\t\t\t\t\t\t\t\t\t} else {\r\n\t\t\t\t\t\t\t\t\t\tSession::set('import', [\r\n\t\t\t\t\t\t\t\t\t\t\t'key'\t\t=> $key,\r\n\t\t\t\t\t\t\t\t\t\t\t'cert'\t\t=> $cert,\r\n\t\t\t\t\t\t\t\t\t\t\t'root'\t\t=> $root,\r\n\t\t\t\t\t\t\t\t\t\t\t'expiring'\t=> $to->diff($from)->format('%r%a"
+msgstr ""
+
+msgid "An unknown error has occurred."
+msgstr ""
+
+msgid "Free"
+msgstr ""
+
+msgid "Higher costs may be incurred"
+msgstr ""
+
+msgid "You can only choose this option if you have already purchased a valid SSL certificate from an approved certification authority.<br \/><br \/>Using the certificate is of course completely free of charge, you only have to procure it yourself."
+msgstr ""
+
+msgid "Certificate is invalid"
+msgstr ""
+
+msgid "Valid thru <strong>%s<\/strong>"
+msgstr ""
+
+msgid "not valid"
+msgstr ""
+
+msgid "valid"
+msgstr ""
+
+msgid "This certificate is <strong>%s<\/strong> and currently in-use with %s."
+msgstr ""
+
+msgid "Certificate will <strong>automatically renew %d days before expiration<\/strong>. We will notify you via email when this happens."
+msgstr ""
+
+msgid "No unique IP"
+msgstr ""
+
+msgid "This domain is currently <strong>not using a Unique IP<\/strong>."
+msgstr ""
+
+msgid "Remove Certificate"
+msgstr ""
+
+msgid "Stop using this certificate with your domain. Note the certificate will still remain valid until its expiration and will be available for use anytime under <strong>Other Certificates<\/strong>."
+msgstr ""
+
+msgid "Do you really wan't to delete the Certificate?"
+msgstr ""
+
+msgid "Automatic HTTPS"
+msgstr ""
+
+msgid "Redirect all site content over a secure HTTPS connection."
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid "Disabling this setting will slow the loading of your site and will default to insecure connections. You should only disable this setting if your site requires special redirect settings in your <strong>.htaccess<\/strong> file or you want to allow mixed content on your site."
+msgstr ""
+
+msgid "Strict Transport Security (HSTS)"
+msgstr ""
+
+msgid "Enables HSTS"
+msgstr ""
+
+msgid "This web security policy guarantees that clients only access the HTTPS version of a website and not the HTTP version. It serves as protection against man-in-the-middle attacks such as SSL stripping, downgrade attacks and more."
+msgstr ""
+
+msgid "Certificate Configuration"
+msgstr ""
+
+msgid "Not available"
+msgstr ""
+
+msgid "The certificate configuration is currently not available. Please wait until the certificate has been created."
+msgstr ""
+
+msgid "Certificate"
+msgstr ""
+
+msgid "Private Key"
+msgstr ""
+
+msgid "Intermediate Certificate"
+msgstr ""
+
+msgid "Details"
+msgstr ""
+
+msgid "Common Name"
+msgstr ""
+
+msgid "Organization Name"
+msgstr ""
+
+msgid "E-Mail Address"
+msgstr ""
+
+msgid "Valid from"
+msgstr ""
+
+msgid "Valid to"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Hash"
+msgstr ""
+
+msgid "Algorithm"
+msgstr ""
+
+msgid "Serial Number"
+msgstr ""
+
+msgid "Secure Certificates"
+msgstr ""
+
+msgid "Add a certificate to your domain to protect information passed between your website and its visitors, providing more trust for your customers and potentially boosting your search engine rankings."
+msgstr ""
+
+msgid "Select this Option"
+msgstr ""
+
+msgid "Import Certificate"
+msgstr ""
+
+msgid "Please check the certificate and confirm that you want to import this certificate for the domain <strong>%s<\/strong>!"
+msgstr ""
+
+msgid "Please enter the information for the certificate you'd like to import below.<br\/>Note that all information must be entered with leading BEGIN and trailing END markers to be accepted."
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Private Key Code"
+msgstr ""
+
+msgid "Certificate Code"
+msgstr ""
+
+msgid "Proceed"
+msgstr ""
+
+msgid "No Certificates available!"
+msgstr ""
+
+msgid "Please navigate to the domain overview and click on the %s <strong>lock-symbol<\/strong> to add a certificate."
+msgstr ""
+
+msgid "Go to my Domains"
+msgstr ""
+
+msgid "Domain"
+msgstr ""
+
+msgid "Expires"
+msgstr ""
+
+msgid "Self-signed"
+msgstr ""
+
+msgid "Manage"
+msgstr ""
+
+msgid "You have no permissions to edit the given Domain."
+msgstr ""
+
+msgid "Secure your site with an certificate from an authority: <ul><li>Displays the 'lock' icon in browser address bars<\/li><li>Mostly 99.9% web and mobile browser compatibility<\/li><li>Often a guarantee for fraudulent transactions with insurance companies<\/li><\/ul>"
+msgstr ""
+
+msgid "Secure your site and improve SEO with a free certificate from Let's Encrypt: <ul><li>Displays the 'lock' icon in browser address bars<\/li><li>Free automatic renewals<\/li><li>New non-profit certificate authority<\/li><\/ul>"
+msgstr ""
+
+msgid "Self-Signed Certificate"
+msgstr ""
+
+msgid "Secure your site with a self-signed certificate: <ul><li>No trust from browsers<\/li><li>Own SSL informations<\/li><li>Connection is encrypted<\/li><\/ul>"
+msgstr ""
+
+msgid "What can we help you with?"
+msgstr ""
+
+msgid "Enter a question or key word..."
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Your security settings has been updated."
+msgstr ""
+
+msgid "Your settings has been updated."
+msgstr ""
+
+msgid "Add Repository"
+msgstr ""
+
+msgid "Please enter an valid  repository URL!"
+msgstr ""
+
+msgid "Repository already exists!"
+msgstr ""
+
+msgid "The module is already disabled!"
+msgstr ""
+
+msgid "The module was successfully disabled."
+msgstr ""
+
+msgid "The module not exists!"
+msgstr ""
+
+msgid "The module is already enabled!"
+msgstr ""
+
+msgid "The module was successfully enabled."
+msgstr ""
+
+msgid "The module was successfully deinstalled!"
+msgstr ""
+
+msgid "<strong>%d Repository%s<\/strong> was updated. Found %d related Update%s!"
+msgstr ""
+
+msgid "<strong>%d Repositorys<\/strong> was successfully removed"
+msgstr ""
+
+msgid "Please select some entries you want to delete."
+msgstr ""
+
+msgid "Settings for <strong>%s<\/strong> was successfully updated."
+msgstr ""
+
+msgid "Please repeat your new password."
+msgstr ""
+
+msgid "The new password must contain the minimum number of 8 characters."
+msgstr ""
+
+msgid "Can't send recovery instructions, because the user has an <strong>invalid E-Mail address<\/strong>."
+msgstr ""
+
+msgid "New password for your account"
+msgstr ""
+
+msgid "Reset your Password"
+msgstr ""
+
+msgid "The new generated password has been sent to users E-Mail address!"
+msgstr ""
+
+msgid "Your password request has been sent to users E-Mail address!"
+msgstr ""
+
+msgid "Security-Settings for <strong>%s<\/strong> was successfully updated."
+msgstr ""
+
+msgid "Please enter a valid E-Mail address."
+msgstr ""
+
+msgid "User <strong>%s<\/strong> was successfully edited."
+msgstr ""
+
+msgid "You cant delete the admin account!"
+msgstr ""
+
+msgid "The user <strong>%s<\/strong> was successfully deleted."
+msgstr ""
+
+msgid "<strong>%s<\/strong> (%s)"
+msgstr ""
+
+msgid "Please enter the username."
+msgstr ""
+
+msgid "The new username must contain the minimum number of 2 characters."
+msgstr ""
+
+msgid "The username is already in use."
+msgstr ""
+
+msgid "Please enter an E-Mail address."
+msgstr ""
+
+msgid "The E-Mail address is already in use."
+msgstr ""
+
+msgid "Please enter the password."
+msgstr ""
+
+msgid "Please repeat the password."
+msgstr ""
+
+msgid "Your password and confirmation password do not match."
+msgstr ""
+
+msgid "The user <strong>%s<\/strong> was successfully created."
+msgstr ""
+
+msgid "You have no permissions for this action!"
+msgstr ""
+
+msgid "The system settings has been saved."
+msgstr ""
+
+msgid "DEMO-VERSION: This action can't be used!"
+msgstr ""
+
+msgid "The System will be rebooted now!"
+msgstr ""
+
+msgid "Please enter your current password."
+msgstr ""
+
+msgid "Please enter your new password."
+msgstr ""
+
+msgid "Your current password is not correct!"
+msgstr ""
+
+msgid "Your password has been updated."
+msgstr ""
+
+msgid "Please enter your E-Mail address."
+msgstr ""
+
+msgid "Please enter your first name."
+msgstr ""
+
+msgid "Please enter your last name."
+msgstr ""
+
+msgid "Please enter your phone  number."
+msgstr ""
+
+msgid "Please enter your address."
+msgstr ""
+
+msgid "Your personal data has been updated."
+msgstr ""
+
+msgid "Your 2FA code is invalid!"
+msgstr ""
+
+msgid "Please complete the two factor authentication:"
+msgstr ""
+
+msgid "Login was unsuccessful!"
+msgstr ""
+
+msgid "The given Token is invalid or was expired."
+msgstr ""
+
+msgid "Please enter a new password."
+msgstr ""
+
+msgid "Your password has been restored."
+msgstr ""
+
+msgid "Please enter an valid and registred E-Mail address!"
+msgstr ""
+
+msgid "Your request has been sent to your E-Mail address!"
+msgstr ""
+
+msgid "disabled"
+msgstr ""
+
+msgid "active"
+msgstr ""
+
+msgid "enabled"
+msgstr ""
+
+msgid "off"
+msgstr ""
+
+msgid "on"
+msgstr ""
+
+msgid "no"
+msgstr ""
+
+msgid "yes"
+msgstr ""
+
+msgid "no value"
+msgstr ""
+
+msgid "Unknown User"
+msgstr ""
+
+msgid "Password mismatched."
+msgstr ""
+
+msgid "%s mins"
+msgstr ""
+
+msgid "%s hours"
+msgstr ""
+
+msgid "%s days"
+msgstr ""
+
+msgid "%s weeks"
+msgstr ""
+
+msgid "%s months"
+msgstr ""
+
+msgid "%s years"
+msgstr ""
+
+msgid "Confirmation"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Databases"
+msgstr ""
+
+msgid "Domains"
+msgstr ""
+
+msgid "E-Mails"
+msgstr ""
+
+msgid "FTP"
+msgstr ""
+
+msgid "Hosting"
+msgstr ""
+
+msgid "Extended"
+msgstr ""
+
+msgid "Support"
+msgstr ""
+
+msgid "Administration"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
+msgid "Modules"
+msgstr ""
+
+msgid "Logfiles"
+msgstr ""
+
+msgid "Console"
+msgstr ""
+
+msgid "Packages"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Reboot"
+msgstr ""
+
+msgid "Reload"
+msgstr ""
+
+msgid "Module Error"
+msgstr ""
+
+msgid "The specified module could not be loaded."
+msgstr ""
+
+msgid "404 - Not Found"
+msgstr ""
+
+msgid "The page you requested could not be found."
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Global settings for your usability"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Time Format"
+msgstr ""
+
+msgid "Timezone"
+msgstr ""
+
+msgid "Some security settings for your safety."
+msgstr ""
+
+msgid "Enable Two-factor authentication (2FA)"
+msgstr ""
+
+msgid "Two-Factor authentication (2FA) is <strong>temporarily disabled<\/strong> because you did not provide a <strong>valid E-Mail address<\/strong>."
+msgstr ""
+
+msgid "Check your E-Mail address in the <a href=\"%s\">account settings<\/a>."
+msgstr ""
+
+msgid "Two-Factor authentication (2FA) will be <strong>temporarily disabled<\/strong> because you did not provide a <strong>valid E-Mail address<\/strong>."
+msgstr ""
+
+msgid "Smartphone"
+msgstr ""
+
+msgid "E-Mail"
+msgstr ""
+
+msgid "SMS"
+msgstr ""
+
+msgid "Module not found!"
+msgstr ""
+
+msgid "Unknown module name. Please select an valid Module!"
+msgstr ""
+
+msgid "No Settings available!"
+msgstr ""
+
+msgid "The Module %s has no settings!"
+msgstr ""
+
+msgid "Add new"
+msgstr ""
+
+msgid "Upgrade"
+msgstr ""
+
+msgid "Installed Modules"
+msgstr ""
+
+msgid "Repositorys"
+msgstr ""
+
+msgid "No Modules available!"
+msgstr ""
+
+msgid "Please install some Modules."
+msgstr ""
+
+msgid "Module"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Module has depencies."
+msgstr ""
+
+msgid "Module is enabled."
+msgstr ""
+
+msgid "Module is disabled."
+msgstr ""
+
+msgid "Do you really wan't to disable the module?"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Do you really wan't to deinstall the module?"
+msgstr ""
+
+msgid "Deinstall"
+msgstr ""
+
+msgid "The module <strong>%s<\/strong> has an new upgrade to <strong>Version %s<\/strong>!"
+msgstr ""
+
+msgid "Upgrade now!"
+msgstr ""
+
+msgid "by"
+msgstr ""
+
+msgid "Repository URL"
+msgstr ""
+
+msgid "No Repositorys available!"
+msgstr ""
+
+msgid "Please adding some Repositorys to keep updates."
+msgstr ""
+
+msgid "Repository"
+msgstr ""
+
+msgid "Never updated"
+msgstr ""
+
+msgid "Malformed Repository"
+msgstr ""
+
+msgid "More Informations"
+msgstr ""
+
+msgid "Last updated"
+msgstr ""
+
+msgid "Password Confirmation"
+msgstr ""
+
+msgid "Security settings"
+msgstr ""
+
+msgid "Change password manually"
+msgstr ""
+
+msgid "Initiate password reset"
+msgstr ""
+
+msgid "Generate new password"
+msgstr ""
+
+msgid "Initiates the password recovery process."
+msgstr ""
+
+msgid "The user receives an E-Mail with instructions on how to reset the password."
+msgstr ""
+
+msgid "The user will probably not receive an E-Mail because the provided <strong>E-Mail address is invalid<\/strong>."
+msgstr ""
+
+msgid "Activate the reset using password recovery"
+msgstr ""
+
+msgid "The system automatically generates a strong password and sends it to the user by E-Mail."
+msgstr ""
+
+msgid "Please note that the password can only be sent if the user has entered a valid E-Mail address."
+msgstr ""
+
+msgid "Activate the reset using password generation"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Full Name"
+msgstr ""
+
+msgid "Phone Number"
+msgstr ""
+
+msgid "Postal Address"
+msgstr ""
+
+msgid "Please add some Users."
+msgstr ""
+
+msgid "Password Settings"
+msgstr ""
+
+msgid "User"
+msgstr ""
+
+msgid "Do you really wan't to delete the user?"
+msgstr ""
+
+msgid "edit"
+msgstr ""
+
+msgid "create User"
+msgstr ""
+
+msgid "Do you really wan't to delete all selected users?"
+msgstr ""
+
+msgid "Toggle theme"
+msgstr ""
+
+msgid "Auto"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
+msgid "Global settings for the Panel"
+msgstr ""
+
+msgid "Project name"
+msgstr ""
+
+msgid "Show Copyright"
+msgstr ""
+
+msgid "Shows the copyright in the footer"
+msgstr ""
+
+msgid "Default Language"
+msgstr ""
+
+msgid "Default Time Format"
+msgstr ""
+
+msgid "Default Timezone"
+msgstr ""
+
+msgid "IP Address"
+msgstr ""
+
+msgid "Network settings"
+msgstr ""
+
+msgid "Uptime"
+msgstr ""
+
+msgid "Restart"
+msgstr ""
+
+msgid "System"
+msgstr ""
+
+msgid "Kernel"
+msgstr ""
+
+msgid "System Time"
+msgstr ""
+
+msgid "System Properties"
+msgstr ""
+
+msgid "Hostname"
+msgstr ""
+
+msgid "The hostname <strong>%s<\/strong> does not match the panel domain (<strong>%s<\/strong>)."
+msgstr ""
+
+msgid "Warning!"
+msgstr ""
+
+msgid "Daemon"
+msgstr ""
+
+msgid "Last Start"
+msgstr ""
+
+msgid "%s ago"
+msgstr ""
+
+msgid "Last End"
+msgstr ""
+
+msgid "Last Time"
+msgstr ""
+
+msgid "%d Seconds"
+msgstr ""
+
+msgid "Mounted Drives"
+msgstr ""
+
+msgid "Type: %s | FileSystem: %s | Size: %s \/ %s"
+msgstr ""
+
+msgid "Memory"
+msgstr ""
+
+msgid "System-Reboot"
+msgstr ""
+
+msgid "Do you really want to reboot the complete system?"
+msgstr ""
+
+msgid "Reboot now!"
+msgstr ""
+
+msgid "Command..."
+msgstr ""
+
+msgid "Refresh"
+msgstr ""
+
+msgid "Loading"
+msgstr ""
+
+msgid "No File selected!"
+msgstr ""
+
+msgid "Please select an Logfile from the List."
+msgstr ""
+
+msgid "No permissions!"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "No services found."
+msgstr ""
+
+msgid "Info"
+msgstr ""
+
+msgid "Package"
+msgstr ""
+
+msgid "No packages found."
+msgstr ""
+
+msgid "Account Details"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Current personal details that you have provided us with, We ask that you keep these upto date in case we require to contact you regarding your hosting package."
+msgstr ""
+
+msgid "Change your current control panel password."
+msgstr ""
+
+msgid "Current Password"
+msgstr ""
+
+msgid "Please sign in"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Lost password"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Back to the login"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Welcome to %s!"
+msgstr ""
+
+msgid "We've assembled some links to get you started"
+msgstr ""
+
+msgid "Get Started"
+msgstr ""
+
+msgid "Create a Domain"
+msgstr ""
+
+msgid "or"
+msgstr ""
+
+msgid "create a new subdomain"
+msgstr ""
+
+msgid "Next Steps"
+msgstr ""
+
+msgid "Create an FTP Account"
+msgstr ""
+
+msgid "Create a new Database"
+msgstr ""
+
+msgid "Create a new Mailbox"
+msgstr ""
+
+msgid "More Actions"
+msgstr ""
+
+msgid "Modify your Account settings"
+msgstr ""

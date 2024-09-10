@@ -1,0 +1,1695 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Print as PDF - fruithost</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.472b142f.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.08040f6c.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings1.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings2.css">
+    
+      <link rel="stylesheet" href="css/print-site-enum-headings3.css">
+    
+      <link rel="stylesheet" href="css/print-site.css">
+    
+      <link rel="stylesheet" href="css/print-site-material.css">
+    
+    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="fruithost" class="md-header__button md-logo" aria-label="fruithost" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            fruithost
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Print as PDF
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/fruithost/Documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="fruithost" class="md-nav__button md-logo" aria-label="fruithost" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    fruithost
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/fruithost/Documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        Panel
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Default
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Default" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Default
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Js
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Js" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Js
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Codemirror
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Codemirror" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Codemirror
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="default/js/codemirror/index.html" class="md-nav__link">
+        How to Build?
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Libraries
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Libraries" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Libraries
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Parsedown
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Parsedown" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Parsedown
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="libraries/Parsedown/index.html" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Skoerfgen
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Skoerfgen" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Skoerfgen
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="libraries/skoerfgen/index.html" class="md-nav__link">
+        ACMECert
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="libraries/skoerfgen/LICENSE.html" class="md-nav__link">
+        LICENSE
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Print as PDF
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="print_page.html" class="md-nav__link md-nav__link--active">
+        Print as PDF
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    1. Panel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-default" class="md-nav__link">
+    I. Default
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-libraries" class="md-nav__link">
+    II. Libraries
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#" class="md-nav__link">
+    1. Panel
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-default" class="md-nav__link">
+    I. Default
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-libraries" class="md-nav__link">
+    II. Libraries
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+  
+                  
+
+
+<div id="print-site-page" class="print-site-enumerate-headings print-site-enumerate-figures">
+        <div id="print-site-banner">
+            <p>
+    <em>This box will disappear when printing</em>
+    <span style="float: right"><a href="https://timvink.github.io/mkdocs-print-site-plugin/">mkdocs-print-site-plugin</a></span>
+</p>
+<p>
+    This page has combined all site pages into one. You can export to PDF using <b>File > Print > Save as PDF</b>.
+</p>
+<p>
+    See also <a href="https://timvink.github.io/mkdocs-print-site-plugin/how-to/export-PDF.html">export to PDF</a> and <a href="https://timvink.github.io/mkdocs-print-site-plugin/how-to/export-HTML.html">export to standalone HTML</a>.
+</p>
+        </div>
+        
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="3">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Index</h1>
+                </nav>
+            </div>
+        </section>
+        <section class="print-page" id="index"><h1 id="index-panel">Panel</h1>
+<p><img alt="" src="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/LOGO_TEXT.png" /> <strong>fruithost</strong> is an OpenSource Hosting-Panel for some Linux Distributions (later maybe also for Windows). With <img alt="" src="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/LOGO_TEXT.png" /> <strong>fruithost</strong>  you get a real alternative to confixx/Plesk, ISPConfig, froxlor and other derivatives.</p>
+<p>Whether <strong>private or professional</strong>, with <img alt="" src="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/LOGO_TEXT.png" /> <strong>fruithost</strong>  you get a clean and simple solution to manage your servers.</p>
+<p>Security comes first at <img alt="" src="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/LOGO_TEXT.png" /> <strong>fruithost</strong> - that's why we only use up-to-date software and do without miserable old solutions. If you have an <a href="https://github.com/fruithost/Panel/blob/master/LICENSE">MIT license</a>, you can use <img alt="" src="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/LOGO_TEXT.png" /> <strong>fruithost</strong>   for any scenario!</p>
+<p><strong>Running a server has never been so easy!</strong></p>
+<h1 id="index-installation">Installation</h1>
+<p>All informations and installations-instructions can be find in the <a href="https://github.com/fruithost/Documentation">Documentation</a>!</p>
+<p><a href="https://github.com/fruithost/Documentation/tree/main/Installation"><img alt="INSTALL_NOW" src="https://img.shields.io/badge/Install_Now!-37a779?style=for-the-badge" /></a></p>
+<h1 id="index-support-us">Support us! <img alt="Sponsors" src="https://img.shields.io/github/sponsors/fruithost?style=social" /></h1>
+<p>Donations are an important contribution to the development of OpenSource projects. With your donation you can help us to advance our project. Your support enables us to support the programming.</p>
+<p>Be a team-player, all feedbacks of our donations will have the priority. We will build the site for <strong>YOU</strong>!</p>
+<p><a href="https://paypal.me/debitdirect"><img alt="PAYPAL" src="https://img.shields.io/badge/PayPal-%24?style=for-the-badge&amp;logo=paypal&amp;color=%23169BD7" /></a> <a href="https://www.patreon.com/fruithost"><img alt="PATREON" src="https://img.shields.io/badge/PATREON-%24?style=for-the-badge&amp;logo=patreon&amp;color=%23F96854" /></a> <a href="https://github.com/sponsors/fruithost"><img alt="GITHUB" src="https://img.shields.io/badge/GitHub-%24?style=for-the-badge&amp;logo=github&amp;color=%230d1117" /></a></p>
+<p><img alt="BANK" src="https://github.com/fruithost/Documentation/blob/main/Images/donation_bank.png?raw=true" /></p>
+<h1 id="index-community">Community</h1>
+<p><a href="https://discord.gg/8pTWckusSC"><img alt="DISCORD" src="https://img.shields.io/badge/Discord-37a779?style=for-the-badge&amp;logo=discord&amp;color=%230d1117" /></a></p>
+<h1 id="index-contributing">Contributing</h1>
+<p>Feel free to help us with the developing! </p>
+<p><a href="https://github.com/fruithost/Panel/blob/master/.github/CODE_OF_CONDUCT.md"><img alt="CODE_OF_CONDUCT" src="https://img.shields.io/badge/Code_of_Conduct-37a779?style=for-the-badge" /></a>
+<a href="https://github.com/fruithost/Panel/blob/master/.github/CONTRIBUTING.md"><img alt="CONTRIBUTING" src="https://img.shields.io/badge/Contributing-37a779?style=for-the-badge" /></a>
+<a href="https://fruithost.de/guidelines/styling"><img alt="STYLING_GUIDELINES" src="https://img.shields.io/badge/Styling_Guidelines-37a779?style=for-the-badge" /></a></p>
+<h1 id="index-demonstration">Demonstration</h1>
+<p><strong>Demo:</strong> http://my.fruithost.de/</p>
+<p>~~<strong>Request:</strong> https://forms.gle/eS7E4MYSVKiiigw77 (<strong>Currently not maintained!</strong>)~~</p>
+<blockquote>
+<p>[!WARNING]
+Currently we do not offer any public demo users!</p>
+<p>~~If you want to watch the demo, write to us - We will set up a personal account for you to test fruithost!~~</p>
+</blockquote>
+<h1 id="index-screenshot">Screenshot</h1>
+<p><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/Dark.png#gh-dark-mode-only">
+  <img alt="" src="https://raw.githubusercontent.com/fruithost/Documentation/main/Images/Light.png">
+</picture></p></section>
+                        <h1 class='nav-section-title' id='section-default'>
+                            Default <a class='headerlink' href='#section-default' title='Permanent link'>↵</a>
+                        </h1>
+                        
+                        <h2 class='nav-section-title' id='section-js'>
+                            Js <a class='headerlink' href='#section-js' title='Permanent link'>↵</a>
+                        </h2>
+                        
+                        <h3 class='nav-section-title' id='section-codemirror'>
+                            Codemirror <a class='headerlink' href='#section-codemirror' title='Permanent link'>↵</a>
+                        </h3>
+                        <section class="print-page" id="default-js-codemirror-index"><h1 id="default-js-codemirror-index-how-to-build">How to Build?</h1>
+<blockquote>
+<p>npm install
+npm start</p>
+</blockquote>
+<p>The builded editor will be bundled on <code>build/bundle.js</code>.</p></section><h1 class='nav-section-title-end'>Ended: Codemirror</h1><h1 class='nav-section-title-end'>Ended: Js</h1><h1 class='nav-section-title-end'>Ended: Default</h1>
+                        <h1 class='nav-section-title' id='section-libraries'>
+                            Libraries <a class='headerlink' href='#section-libraries' title='Permanent link'>↵</a>
+                        </h1>
+                        
+                        <h2 class='nav-section-title' id='section-parsedown'>
+                            Parsedown <a class='headerlink' href='#section-parsedown' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="libraries-parsedown-index"><p align="center"><img alt="Parsedown" src="https://i.imgur.com/fKVY6Kz.png" width="240" /></p>
+
+<h1 id="libraries-parsedown-index-parsedown">Parsedown</h1>
+<p><a href="https://packagist.org/packages/erusev/parsedown"><img alt="Total Downloads" src="https://poser.pugx.org/erusev/parsedown/d/total.svg" /></a>
+<a href="https://packagist.org/packages/erusev/parsedown"><img alt="Version" src="https://poser.pugx.org/erusev/parsedown/v/stable.svg" /></a>
+<a href="https://packagist.org/packages/erusev/parsedown"><img alt="License" src="https://poser.pugx.org/erusev/parsedown/license.svg" /></a></p>
+<p>Better Markdown Parser in PHP — <a href="https://parsedown.org/demo">Demo</a>.</p>
+<h2 id="libraries-parsedown-index-features">Features</h2>
+<ul>
+<li>One File</li>
+<li>No Dependencies</li>
+<li><a href="http://parsedown.org/speed">Super Fast</a></li>
+<li>Extensible</li>
+<li><a href="https://github.github.com/gfm">GitHub flavored</a></li>
+<li><a href="http://parsedown.org/tests/">Tested</a> in 5.3 to 7.3</li>
+<li><a href="https://github.com/erusev/parsedown-extra">Markdown Extra extension</a></li>
+</ul>
+<h2 id="libraries-parsedown-index-installation">Installation</h2>
+<p>Install the <a href="https://packagist.org/packages/erusev/parsedown" title="The Parsedown package on packagist.org">composer package</a>:</p>
+<div class="highlight"><pre><span></span><code>composer require erusev/parsedown
+</code></pre></div>
+<p>Or download the <a href="https://github.com/erusev/parsedown/releases/latest" title="The latest release of Parsedown">latest release</a> and include <code>Parsedown.php</code></p>
+<h2 id="libraries-parsedown-index-example">Example</h2>
+<div class="highlight"><pre><span></span><code><span class="x">$Parsedown = new Parsedown();</span>
+
+<span class="x">echo $Parsedown-&gt;text(&#39;Hello _Parsedown_!&#39;); # prints: &lt;p&gt;Hello &lt;em&gt;Parsedown&lt;/em&gt;!&lt;/p&gt;</span>
+</code></pre></div>
+<p>You can also parse inline markdown only:</p>
+<div class="highlight"><pre><span></span><code><span class="x">echo $Parsedown-&gt;line(&#39;Hello _Parsedown_!&#39;); # prints: Hello &lt;em&gt;Parsedown&lt;/em&gt;!</span>
+</code></pre></div>
+<p>More examples in <a href="https://github.com/erusev/parsedown/wiki/">the wiki</a> and in <a href="http://youtu.be/wYZBY8DEikI">this video tutorial</a>.</p>
+<h2 id="libraries-parsedown-index-security">Security</h2>
+<p>Parsedown is capable of escaping user-input within the HTML that it generates. Additionally Parsedown will apply sanitisation to additional scripting vectors (such as scripting link destinations) that are introduced by the markdown syntax itself.</p>
+<p>To tell Parsedown that it is processing untrusted user-input, use the following:</p>
+<div class="highlight"><pre><span></span><code><span class="x">$Parsedown-&gt;setSafeMode(true);</span>
+</code></pre></div>
+<p>If instead, you wish to allow HTML within untrusted user-input, but still want output to be free from XSS it is recommended that you make use of a HTML sanitiser that allows HTML tags to be whitelisted, like <a href="http://htmlpurifier.org/">HTML Purifier</a>.</p>
+<p>In both cases you should strongly consider employing defence-in-depth measures, like <a href="https://scotthelme.co.uk/content-security-policy-an-introduction/">deploying a Content-Security-Policy</a> (a browser security feature) so that your page is likely to be safe even if an attacker finds a vulnerability in one of the first lines of defence above.</p>
+<p>Safe mode does not necessarily yield safe results when using extensions to Parsedown. Extensions should be evaluated on their own to determine their specific safety against XSS.</p>
+<h2 id="libraries-parsedown-index-escaping-html">Escaping HTML</h2>
+<blockquote>
+<p>WARNING: This method is not safe from XSS!</p>
+</blockquote>
+<p>If you wish to escape HTML in trusted input, you can use the following:</p>
+<div class="highlight"><pre><span></span><code><span class="x">$Parsedown-&gt;setMarkupEscaped(true);</span>
+</code></pre></div>
+<p>Beware that this still allows users to insert unsafe scripting vectors, ex: <code>[xss](javascript:alert%281%29)</code>.</p>
+<h2 id="libraries-parsedown-index-questions">Questions</h2>
+<p><strong>How does Parsedown work?</strong></p>
+<p>It tries to read Markdown like a human. First, it looks at the lines. It’s interested in how the lines start. This helps it recognise blocks. It knows, for example, that if a line starts with a <code>-</code> then perhaps it belongs to a list. Once it recognises the blocks, it continues to the content. As it reads, it watches out for special characters. This helps it recognise inline elements (or inlines).</p>
+<p>We call this approach "line based". We believe that Parsedown is the first Markdown parser to use it. Since the release of Parsedown, other developers have used the same approach to develop other Markdown parsers in PHP and in other languages.</p>
+<p><strong>Is it compliant with CommonMark?</strong></p>
+<p>It passes most of the CommonMark tests. Most of the tests that don't pass deal with cases that are quite uncommon. Still, as CommonMark matures, compliance should improve.</p>
+<p><strong>Who uses it?</strong></p>
+<p><a href="https://laravel.com/">Laravel Framework</a>, <a href="http://bolt.cm/">Bolt CMS</a>, <a href="http://getgrav.org/">Grav CMS</a>, <a href="http://www.getherbie.org/">Herbie CMS</a>, <a href="http://getkirby.com/">Kirby CMS</a>, <a href="http://octobercms.com/">October CMS</a>, <a href="http://picocms.org">Pico CMS</a>, <a href="http://www.statamic.com/">Statamic CMS</a>, <a href="http://www.phpdoc.org/">phpDocumentor</a>, <a href="http://www.raspberrypi.org/">RaspberryPi.org</a>, <a href="https://github.com/symfony/demo">Symfony Demo</a> and <a href="https://packagist.org/packages/erusev/parsedown/dependents">more</a>.</p>
+<p><strong>How can I help?</strong></p>
+<p>Use it, star it, share it and if you feel generous, <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=528P3NZQMP8N2">donate</a>.</p>
+<p><strong>What else should I know?</strong></p>
+<p>I also make <a href="https://nota.md/">Nota</a> — a writing app designed for Markdown files :)</p></section><h1 class='nav-section-title-end'>Ended: Parsedown</h1>
+                        <h2 class='nav-section-title' id='section-skoerfgen'>
+                            Skoerfgen <a class='headerlink' href='#section-skoerfgen' title='Permanent link'>↵</a>
+                        </h2>
+                        <section class="print-page" id="libraries-skoerfgen-index"><h1 id="libraries-skoerfgen-index-acmecert">ACMECert</h1>
+<p>PHP client library for <a href="https://letsencrypt.org/">Let's Encrypt</a> and other <a href="https://tools.ietf.org/html/rfc8555">ACME v2 - RFC 8555</a> compatible Certificate Authorities.<br />
+Version: 3.2.2</p>
+<h2 id="libraries-skoerfgen-index-description">Description</h2>
+<p>ACMECert is designed to help you to setup an automated SSL/TLS-certificate/renewal process
+with a few lines of PHP.</p>
+<p>It is self contained and contains a set of functions allowing you to:</p>
+<ul>
+<li>generate <a href="#libraries-skoerfgen-index-acmecertgeneratersakey">RSA</a> / <a href="#libraries-skoerfgen-index-acmecertgenerateeckey">EC (Elliptic Curve)</a> keys</li>
+<li>manage account: <a href="#libraries-skoerfgen-index-acmecertregister">register</a>/<a href="#libraries-skoerfgen-index-acmecertregistereab">External Account Binding (EAB)</a>/<a href="#libraries-skoerfgen-index-acmecertupdate">update</a>/<a href="#libraries-skoerfgen-index-acmecertdeactivateaccount">deactivate</a> and <a href="#libraries-skoerfgen-index-acmecertkeychange">account key roll-over</a></li>
+<li><a href="#libraries-skoerfgen-index-acmecertgetcertificatechain">get</a>/<a href="#libraries-skoerfgen-index-acmecertrevoke">revoke</a> certificates (to renew a certificate just get a new one)</li>
+<li><a href="#libraries-skoerfgen-index-acmecertparsecertificate">parse certificates</a> / get the <a href="#libraries-skoerfgen-index-acmecertgetremainingdays">remaining days</a> a certificate is still valid</li>
+<li>and more..<blockquote>
+<p>see <a href="#libraries-skoerfgen-index-function-reference">Function Reference</a> for a full list</p>
+</blockquote>
+</li>
+</ul>
+<p>It abstracts away the complexity of the ACME protocol to get a certificate
+(create order, fetch authorizations, compute challenge tokens, polling for status, generate CSR,
+finalize order, request certificate) into a single function <a href="#libraries-skoerfgen-index-acmecertgetcertificatechain">getCertificateChain</a> (or <a href="#libraries-skoerfgen-index-acmecertgetcertificatechains">getCertificateChains</a> to also get all alternate chains),
+where you specify a set of domains you want to get a certificate for and which challenge type to use (all <a href="https://letsencrypt.org/docs/challenge-types/">challenge types</a> are supported).
+This function takes as third argument a user-defined callback function which gets
+invoked every time a challenge needs to be fulfilled. It is up to you to set/remove the challenge tokens:</p>
+<div class="highlight"><pre><span></span><code><span class="x">$handler=function($opts){</span>
+<span class="x">  // Write code to setup the challenge token here.</span>
+
+<span class="x">  // Return a function that gets called when the challenge token should be removed again:</span>
+<span class="x">  return function($opts){</span>
+<span class="x">    // Write code to remove previously setup challenge token.</span>
+<span class="x">  };</span>
+<span class="x">};</span>
+
+<span class="x">$ac-&gt;getCertificateChain(..., ..., $handler);</span>
+</code></pre></div>
+<blockquote>
+<p>see description of <a href="#libraries-skoerfgen-index-acmecertgetcertificatechain">getCertificateChain</a> for details about the callback function.</p>
+<p>also see the <a href="#libraries-skoerfgen-index-get-certificate-using-http-01-challenge">Get Certificate</a> examples below.</p>
+</blockquote>
+<p>Instead of returning <code>FALSE</code> on error, every function in ACMECert throws an <a href="http://php.net/manual/en/class.exception.php">Exception</a>
+if it fails or an <a href="#libraries-skoerfgen-index-acme_exception">ACME_Exception</a> if the ACME-Server reponded with an error message.</p>
+<h2 id="libraries-skoerfgen-index-requirements">Requirements</h2>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> PHP 5.3 or higher (for EC keys PHP 7.1 or higher is required)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <a href="https://www.php.net/manual/de/book.openssl.php">OpenSSL extension</a></li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> enabled <a href="https://www.php.net/manual/en/filesystem.configuration.php#ini.allow-url-fopen">fopen wrappers</a> (allow_url_fopen=1) <strong>or</strong> <a href="https://www.php.net/manual/en/book.curl.php">cURL extension</a></li>
+</ul>
+<h2 id="libraries-skoerfgen-index-require-acmecert">Require ACMECert</h2>
+<p>manual download: https://github.com/skoerfgen/ACMECert/archive/master.zip</p>
+<p>usage:</p>
+<div class="highlight"><pre><span></span><code><span class="x">require &#39;ACMECert.php&#39;;</span>
+
+<span class="x">use skoerfgen\ACMECert\ACMECert;</span>
+</code></pre></div>
+<hr />
+<p>or download it using <a href="https://git-scm.com/">git</a>:</p>
+<p><div class="highlight"><pre><span></span><code>git clone https://github.com/skoerfgen/ACMECert
+</code></pre></div>
+usage:</p>
+<div class="highlight"><pre><span></span><code><span class="x">require &#39;ACMECert/ACMECert.php&#39;;</span>
+
+<span class="x">use skoerfgen\ACMECert\ACMECert;</span>
+</code></pre></div>
+<hr />
+<p>or download it using <a href="https://getcomposer.org">composer</a>:
+<div class="highlight"><pre><span></span><code>composer require skoerfgen/acmecert
+</code></pre></div></p>
+<p>usage:</p>
+<div class="highlight"><pre><span></span><code><span class="x">require &#39;vendor/autoload.php&#39;;</span>
+
+<span class="x">use skoerfgen\ACMECert\ACMECert;</span>
+</code></pre></div>
+<h2 id="libraries-skoerfgen-index-usage-examples">Usage / Examples</h2>
+<ul>
+<li><a href="https://github.com/skoerfgen/ACMECert/wiki/Simple-example-to-get-started">Simple example to get started</a></li>
+</ul>
+<h4 id="libraries-skoerfgen-index-choose-certificate-authority-ca">Choose Certificate Authority (CA)</h4>
+<h5 id="libraries-skoerfgen-index-lets-encrypt"><a href="https://letsencrypt.org/">Let's Encrypt</a></h5>
+<blockquote>
+<p>Live CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://acme-v02.api.letsencrypt.org/directory&#39;);</span>
+</code></pre></div></p>
+<p>Staging CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://acme-staging-v02.api.letsencrypt.org/directory&#39;);</span>
+</code></pre></div></p>
+</blockquote>
+<h5 id="libraries-skoerfgen-index-buypass"><a href="https://buypass.com/">Buypass</a></h5>
+<blockquote>
+<p>Live CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://api.buypass.com/acme/directory&#39;);</span>
+</code></pre></div></p>
+<p>Staging CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://api.test4.buypass.no/acme/directory&#39;);</span>
+</code></pre></div></p>
+</blockquote>
+<h5 id="libraries-skoerfgen-index-google-trust-services"><a href="https://pki.goog/">Google Trust Services</a></h5>
+<blockquote>
+<p>Live CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://dv.acme-v02.api.pki.goog/directory&#39;);</span>
+</code></pre></div></p>
+<p>Staging CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://dv.acme-v02.test-api.pki.goog/directory&#39;);</span>
+</code></pre></div></p>
+</blockquote>
+<h5 id="libraries-skoerfgen-index-sslcom"><a href="https://www.ssl.com/">SSL.com</a></h5>
+<blockquote>
+<p>Live CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://acme.ssl.com/sslcom-dv-rsa&#39;);</span>
+</code></pre></div></p>
+</blockquote>
+<h5 id="libraries-skoerfgen-index-zerossl"><a href="https://zerossl.com/">ZeroSSL</a></h5>
+<blockquote>
+<p>Live CA
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;https://acme.zerossl.com/v2/DV90&#39;);</span>
+</code></pre></div></p>
+</blockquote>
+<h5 id="libraries-skoerfgen-index-or-any-other-acme-v2-rfc-8555-compatible-ca">or any other (<a href="https://tools.ietf.org/html/rfc8555">ACME v2 - RFC 8555</a>) compatible CA</h5>
+<div class="highlight"><pre><span></span><code><span class="x">$ac=new ACMECert(&#39;INSERT_URL_TO_AMCE_CA_DIRECTORY_HERE&#39;);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-generate-rsa-private-key">Generate RSA Private Key</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$key=$ac-&gt;generateRSAKey(2048);</span>
+<span class="x">file_put_contents(&#39;account_key.pem&#39;,$key);</span>
+</code></pre></div>
+<blockquote>
+<p>Equivalent to: <code>openssl genrsa -out account_key.pem 2048</code></p>
+</blockquote>
+<h4 id="libraries-skoerfgen-index-generate-ec-private-key">Generate EC Private Key</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$key=$ac-&gt;generateECKey(&#39;P-384&#39;);</span>
+<span class="x">file_put_contents(&#39;account_key.pem&#39;,$key);</span>
+</code></pre></div>
+<blockquote>
+<p>Equivalent to: <code>openssl ecparam -name secp384r1 -genkey -noout -out account_key.pem</code></p>
+</blockquote>
+<h4 id="libraries-skoerfgen-index-register-account-key-with-ca">Register Account Key with CA</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+<span class="x">$ret=$ac-&gt;register(true,&#39;info@example.com&#39;);</span>
+<span class="x">print_r($ret);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-register-account-key-with-ca-using-external-account-binding">Register Account Key with CA using External Account Binding</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+<span class="x">$ret=$ac-&gt;registerEAB(true,&#39;INSERT_EAB_KEY_ID_HERE&#39;,&#39;INSERT_EAB_HMAC_HERE&#39;,&#39;info@example.com&#39;);</span>
+<span class="x">print_r($ret);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-get-certificate-using-http-01-challenge">Get Certificate using <code>http-01</code> challenge</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+
+<span class="x">$domain_config=array(</span>
+<span class="x">  &#39;test1.example.com&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;http-01&#39;,&#39;docroot&#39;=&gt;&#39;/var/www/vhosts/test1.example.com&#39;),</span>
+<span class="x">  &#39;test2.example.com&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;http-01&#39;,&#39;docroot&#39;=&gt;&#39;/var/www/vhosts/test2.example.com&#39;)</span>
+<span class="x">);</span>
+
+<span class="x">$handler=function($opts){</span>
+<span class="x">  $fn=$opts[&#39;config&#39;][&#39;docroot&#39;].$opts[&#39;key&#39;];</span>
+<span class="x">  @mkdir(dirname($fn),0777,true);</span>
+<span class="x">  file_put_contents($fn,$opts[&#39;value&#39;]);</span>
+<span class="x">  return function($opts){</span>
+<span class="x">    unlink($opts[&#39;config&#39;][&#39;docroot&#39;].$opts[&#39;key&#39;]);</span>
+<span class="x">  };</span>
+<span class="x">};</span>
+
+<span class="x">// Generate new certificate key</span>
+<span class="x">$private_key=$ac-&gt;generateRSAKey(2048);</span>
+
+<span class="x">$fullchain=$ac-&gt;getCertificateChain($private_key,$domain_config,$handler);</span>
+<span class="x">file_put_contents(&#39;fullchain.pem&#39;,$fullchain);</span>
+<span class="x">file_put_contents(&#39;private_key.pem&#39;,$private_key);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-get-certificate-using-all-http-01dns-01-and-tls-alpn-01-challenge-types-together">Get Certificate using all (<code>http-01</code>,<code>dns-01</code> and <code>tls-alpn-01</code>) challenge types together</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+
+<span class="x">$domain_config=array(</span>
+<span class="x">  &#39;example.com&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;http-01&#39;,&#39;docroot&#39;=&gt;&#39;/var/www/vhosts/example.com&#39;),</span>
+<span class="x">  &#39;*.example.com&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;dns-01&#39;),</span>
+<span class="x">  &#39;test.example.org&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;tls-alpn-01&#39;)</span>
+<span class="x">);</span>
+
+<span class="x">$handler=function($opts) use ($ac){</span>
+<span class="x">  switch($opts[&#39;config&#39;][&#39;challenge&#39;]){</span>
+<span class="x">    case &#39;http-01&#39;: // automatic example: challenge directory/file is created..</span>
+<span class="x">      $fn=$opts[&#39;config&#39;][&#39;docroot&#39;].$opts[&#39;key&#39;];</span>
+<span class="x">      @mkdir(dirname($fn),0777,true);</span>
+<span class="x">      file_put_contents($fn,$opts[&#39;value&#39;]);</span>
+<span class="x">      return function($opts) use ($fn){ // ..and removed after validation completed</span>
+<span class="x">        unlink($fn);</span>
+<span class="x">      };</span>
+<span class="x">    break;</span>
+<span class="x">    case &#39;dns-01&#39;: // manual example:</span>
+<span class="x">      echo &#39;Create DNS-TXT-Record &#39;.$opts[&#39;key&#39;].&#39; with value &#39;.$opts[&#39;value&#39;].&quot;\n&quot;;</span>
+<span class="x">      readline(&#39;Ready?&#39;);</span>
+<span class="x">      return function($opts){</span>
+<span class="x">        echo &#39;Remove DNS-TXT-Record &#39;.$opts[&#39;key&#39;].&#39; with value &#39;.$opts[&#39;value&#39;].&quot;\n&quot;;</span>
+<span class="x">      };</span>
+<span class="x">    break;</span>
+<span class="x">    case &#39;tls-alpn-01&#39;:</span>
+<span class="x">      $cert=$ac-&gt;generateALPNCertificate(&#39;file://&#39;.&#39;some_private_key.pem&#39;,$opts[&#39;domain&#39;],$opts[&#39;value&#39;]);</span>
+<span class="x">      // Use $cert and some_private_key.pem(&lt;- does not have to be a specific key,</span>
+<span class="x">      // just make sure you generated one) to serve the certificate for $opts[&#39;domain&#39;]</span>
+
+
+<span class="x">      // This example uses an included ALPN Responder - a standalone https-server</span>
+<span class="x">      // written in a few lines of node.js - which is able to complete this challenge.</span>
+
+<span class="x">      // store the generated verification certificate to be used by the ALPN Responder.</span>
+<span class="x">      file_put_contents(&#39;alpn_cert.pem&#39;,$cert);</span>
+
+<span class="x">      // To keep this example simple, the included Example ALPN Responder listens on port 443,</span>
+<span class="x">      // so - for the sake of this example - you have to stop the webserver here, like:</span>
+<span class="x">      shell_exec(&#39;/etc/init.d/apache2 stop&#39;);</span>
+
+<span class="x">      // Start ALPN Responder (requires node.js)</span>
+<span class="x">      $resource=proc_open(</span>
+<span class="x">        &#39;node alpn_responder.js some_private_key.pem alpn_cert.pem&#39;,</span>
+<span class="x">        array(</span>
+<span class="x">          0=&gt;array(&#39;pipe&#39;,&#39;r&#39;),</span>
+<span class="x">          1=&gt;array(&#39;pipe&#39;,&#39;w&#39;)</span>
+<span class="x">        ),</span>
+<span class="x">        $pipes</span>
+<span class="x">      );</span>
+
+<span class="x">      // wait until alpn responder is listening</span>
+<span class="x">      fgets($pipes[1]);</span>
+
+<span class="x">      return function($opts) use ($resource,$pipes){</span>
+<span class="x">        // Stop ALPN Responder</span>
+<span class="x">        fclose($pipes[0]);</span>
+<span class="x">        fclose($pipes[1]);</span>
+<span class="x">        proc_close($resource);</span>
+<span class="x">        shell_exec(&#39;/etc/init.d/apache2 start&#39;);</span>
+<span class="x">      };</span>
+<span class="x">    break;</span>
+<span class="x">  }</span>
+<span class="x">};</span>
+
+<span class="x">// Example for using a pre-generated CSR as input to getCertificateChain instead of a private key:</span>
+<span class="x">// $csr=$ac-&gt;generateCSR(&#39;file://&#39;.&#39;cert_private_key.pem&#39;,array_keys($domain_config));</span>
+<span class="x">// $fullchain=$ac-&gt;getCertificateChain($csr,$domain_config,$handler);</span>
+
+<span class="x">$fullchain=$ac-&gt;getCertificateChain(&#39;file://&#39;.&#39;cert_private_key.pem&#39;,$domain_config,$handler);</span>
+<span class="x">file_put_contents(&#39;fullchain.pem&#39;,$fullchain);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-get-alternate-chains">Get alternate chains</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$chains=$ac-&gt;getCertificateChains(&#39;file://&#39;.&#39;cert_private_key.pem&#39;,$domain_config,$handler);</span>
+<span class="x">if (isset($chains[&#39;ISRG Root X1&#39;])){ // use alternate chain &#39;ISRG Root X1&#39;</span>
+<span class="x">  $fullchain=$chains[&#39;ISRG Root X1&#39;];</span>
+<span class="x">}else{ // use default chain if &#39;ISRG Root X1&#39; is not present</span>
+<span class="x">  $fullchain=reset($chains);</span>
+<span class="x">}</span>
+<span class="x">file_put_contents(&#39;fullchain.pem&#39;,$fullchain);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-revoke-certificate">Revoke Certificate</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+<span class="x">$ac-&gt;revoke(&#39;file://&#39;.&#39;fullchain.pem&#39;);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-get-account-information">Get Account Information</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+<span class="x">$ret=$ac-&gt;getAccount();</span>
+<span class="x">print_r($ret);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-account-key-roll-over">Account Key Roll-over</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+<span class="x">$ret=$ac-&gt;keyChange(&#39;file://&#39;.&#39;new_account_key.pem&#39;);</span>
+<span class="x">print_r($ret);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-deactivate-account">Deactivate Account</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$ac-&gt;loadAccountKey(&#39;file://&#39;.&#39;account_key.pem&#39;);</span>
+<span class="x">$ret=$ac-&gt;deactivateAccount();</span>
+<span class="x">print_r($ret);</span>
+</code></pre></div>
+<h4 id="libraries-skoerfgen-index-get-remaining-days">Get Remaining Days</h4>
+<div class="highlight"><pre><span></span><code><span class="x">$days=$ac-&gt;getRemainingDays(&#39;file://&#39;.&#39;fullchain.pem&#39;); // certificate or certificate-chain</span>
+<span class="x">if ($days&gt;30) { // renew 30 days before expiry</span>
+<span class="x">  die(&#39;Certificate still good, exiting..&#39;);</span>
+<span class="x">}</span>
+<span class="x">// get new certificate here..</span>
+</code></pre></div>
+<blockquote>
+<p>This allows you to run your renewal script without the need to time it exactly, just run it often enough. (cronjob)</p>
+</blockquote>
+<h2 id="libraries-skoerfgen-index-logging">Logging</h2>
+<p>ACMECert logs its actions using <code>error_log</code>, which logs messages to stderr per default in PHP CLI so it is easy to log to a file instead:
+<div class="highlight"><pre><span></span><code><span class="x">error_reporting(E_ALL);</span>
+<span class="x">ini_set(&#39;log_errors&#39;,1);</span>
+<span class="x">ini_set(&#39;error_log&#39;,dirname(__FILE__).&#39;/ACMECert.log&#39;);</span>
+
+<span class="x">## Disable error output</span>
+
+<span class="x">If you want to disable the error output, you can use the `disableLog` method, Exceptions are nevertheless thrown.</span>
+<span class="x">```php</span>
+<span class="x">$ac-&gt;disableLog();</span>
+</code></pre></div></p>
+<h2 id="libraries-skoerfgen-index-acme_exception">ACME_Exception</h2>
+<p>If the ACME-Server responded with an error message an <code>\skoerfgen\ACMECert\ACME_Exception</code> is thrown. (ACME_Exception extends Exception)</p>
+<p><code>ACME_Exception</code> has two additional functions:</p>
+<ul>
+<li><code>getType()</code> to get the ACME error code:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="x">use skoerfgen\ACMECert\ACME_Exception;</span>
+
+<span class="x">try {</span>
+<span class="x">  echo $ac-&gt;getAccountID().PHP_EOL;</span>
+<span class="x">}catch(ACME_Exception $e){</span>
+<span class="x">  if ($e-&gt;getType()==&#39;urn:ietf:params:acme:error:accountDoesNotExist&#39;){</span>
+<span class="x">    echo &#39;Account does not exist&#39;.PHP_EOL;</span>
+<span class="x">  }else{</span>
+<span class="x">    throw $e; // another error occured</span>
+<span class="x">  }</span>
+<span class="x">}</span>
+</code></pre></div>
+<ul>
+<li><code>getSubproblems()</code> to get an array of <code>ACME_Exception</code>s if there is more than one error returned from the ACME-Server:</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="x">try {</span>
+<span class="x">  $cert=$ac-&gt;getCertificateChain(&#39;file://&#39;.&#39;cert_private_key.pem&#39;,$domain_config,$handler);</span>
+<span class="x">} catch (\skoerfgen\ACMECert\ACME_Exception $e){</span>
+<span class="x">  $ac-&gt;log($e-&gt;getMessage()); // log original error</span>
+<span class="x">  foreach($e-&gt;getSubproblems() as $subproblem){</span>
+<span class="x">    $ac-&gt;log($subproblem-&gt;getMessage()); // log sub errors</span>
+<span class="x">  }</span>
+<span class="x">}</span>
+</code></pre></div>
+<h2 id="libraries-skoerfgen-index-function-reference">Function Reference</h2>
+<h3 id="libraries-skoerfgen-index-acmecert__construct">ACMECert::__construct</h3>
+<p>Creates a new ACMECert instance.
+<div class="highlight"><pre><span></span><code><span class="x">public ACMECert::__construct ( string $ca_url = &#39;https://acme-v02.api.letsencrypt.org/directory&#39; )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters">Parameters</h6>
+<blockquote>
+<p><strong><code>ca_url</code></strong></p>
+<p>A string containing the URL to an ACME CA directory endpoint.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values">Return Values</h6>
+<blockquote>
+<p>Returns a new ACMECert instance.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgeneratersakey">ACMECert::generateRSAKey</h3>
+<p>Generate RSA private key (used as account key or private key for a certificate).
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::generateRSAKey ( int $bits = 2048 )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_1">Parameters</h6>
+<blockquote>
+<p><strong><code>bits</code></strong></p>
+<p>RSA key size in bits.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_1">Return Values</h6>
+<blockquote>
+<p>Returns the generated RSA private key as PEM encoded string.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the RSA key could not be generated.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgenerateeckey">ACMECert::generateECKey</h3>
+<p>Generate Elliptic Curve (EC) private key (used as account key or private key for a certificate).
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::generateECKey ( string $curve_name = &#39;P-384&#39; )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_2">Parameters</h6>
+<blockquote>
+<p><strong><code>curve_name</code></strong></p>
+<p>Supported Curves by Let’s Encrypt:
+* <code>P-256</code> (prime256v1)
+* <code>P-384</code> (secp384r1)
+* ~~<code>P-521</code> (secp521r1)~~</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_2">Return Values</h6>
+<blockquote>
+<p>Returns the generated EC private key as PEM encoded string.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_1">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the EC key could not be generated.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertloadaccountkey">ACMECert::loadAccountKey</h3>
+<p>Load account key.
+<div class="highlight"><pre><span></span><code><span class="x">public void ACMECert::loadAccountKey ( mixed $account_key_pem )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_3">Parameters</h6>
+<blockquote>
+<p><strong><code>account_key_pem</code></strong></p>
+<p>can be one of the following:
+* a string containing a PEM formatted private key.
+* a string beginning with <code>file://</code> containing the filename to read a PEM formatted private key from.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_3">Return Values</h6>
+<blockquote>
+<p>No value is returned.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_2">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the account key could not be loaded.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertregister">ACMECert::register</h3>
+<p>Associate the loaded account key with the CA account and optionally specify contacts.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::register ( bool $termsOfServiceAgreed = FALSE [, mixed $contacts = array() ] )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_4">Parameters</h6>
+<blockquote>
+<p><strong><code>termsOfServiceAgreed</code></strong></p>
+<p>By passing <code>TRUE</code>, you agree to the Terms Of Service of the selected CA. (Must be set to <code>TRUE</code> in order to successully register an account.)</p>
+<p>Hint: Use <a href="#libraries-skoerfgen-index-acmecertgettermsurl">getTermsURL()</a> to get the link to the current Terms Of Service.</p>
+<p><strong><code>contacts</code></strong></p>
+<p>can be one of the following:
+1. A string containing an e-mail address
+2. Array of e-mail addresses</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_4">Return Values</h6>
+<blockquote>
+<p>Returns an array containing the account information.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_3">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other registration error occured.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertregistereab">ACMECert::registerEAB</h3>
+<p>Associate the loaded account key with the CA account using External Account Binding (EAB) credentials and optionally specify contacts.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::registerEAB ( bool $termsOfServiceAgreed, string $eab_kid, string $eab_hmac [, mixed $contacts = array() ] )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_5">Parameters</h6>
+<blockquote>
+<p><strong><code>termsOfServiceAgreed</code></strong></p>
+<p>By passing <code>TRUE</code>, you agree to the Terms Of Service of the selected CA. (Must be set to <code>TRUE</code> in order to successully register an account.)</p>
+<p>Hint: Use <a href="#libraries-skoerfgen-index-acmecertgettermsurl">getTermsURL()</a> to get the link to the current Terms Of Service.</p>
+<p><strong><code>eab_kid</code></strong></p>
+<p>a string specifying the <code>EAB Key Identifier</code></p>
+<p><strong><code>eab_hmac</code></strong></p>
+<p>a string specifying the <code>EAB HMAC Key</code></p>
+<p><strong><code>contacts</code></strong></p>
+<p>can be one of the following:
+1. A string containing an e-mail address
+2. Array of e-mail addresses</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_5">Return Values</h6>
+<blockquote>
+<p>Returns an array containing the account information.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_4">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other registration error occured.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertupdate">ACMECert::update</h3>
+<p>Update account contacts.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::update ( mixed $contacts = array() )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_6">Parameters</h6>
+<blockquote>
+<p><strong><code>contacts</code></strong></p>
+<p>can be one of the following:
+* A string containing an e-mail address
+* Array of e-mail addresses</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_6">Return Values</h6>
+<blockquote>
+<p>Returns an array containing the account information.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_5">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured updating the account.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetaccount">ACMECert::getAccount</h3>
+<p>Get Account Information.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::getAccount()</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-return-values_7">Return Values</h6>
+<blockquote>
+<p>Returns an array containing the account information.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_6">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured getting the account information.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetaccountid">ACMECert::getAccountID</h3>
+<p>Get Account ID.
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::getAccountID()</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-return-values_8">Return Values</h6>
+<blockquote>
+<p>Returns the Account ID</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_7">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured getting the account id.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertkeychange">ACMECert::keyChange</h3>
+<p>Account Key Roll-over (exchange the current account key with another one).</p>
+<blockquote>
+<p>If the Account Key Roll-over succeeded, the new account key is automatically loaded via <a href="#libraries-skoerfgen-index-acmecertloadaccountkey"><code>loadAccountKey</code></a>
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::keyChange ( mixed $new_account_key_pem )</span>
+</code></pre></div></p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-parameters_7">Parameters</h6>
+<blockquote>
+<p><strong><code>new_account_key_pem</code></strong></p>
+<p>can be one of the following:
+* a string containing a PEM formatted private key.
+* a string beginning with <code>file://</code> containing the filename to read a PEM formatted private key from.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_9">Return Values</h6>
+<blockquote>
+<p>Returns an array containing the account information.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_8">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured during key change.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertdeactivateaccount">ACMECert::deactivateAccount</h3>
+<p>Deactivate account.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::deactivateAccount()</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-return-values_10">Return Values</h6>
+<blockquote>
+<p>Returns an array containing the account information.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_9">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured during account deactivation.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetcertificatechain">ACMECert::getCertificateChain</h3>
+<p>Get certificate-chain (certificate + the intermediate certificate(s)).</p>
+<p><em>This is what Apache &gt;= 2.4.8 needs for <a href="https://httpd.apache.org/docs/current/mod/mod_ssl.html#sslcertificatefile"><code>SSLCertificateFile</code></a>, and what Nginx needs for <a href="http://nginx.org/en/docs/http/ngx_http_ssl_module.html#ssl_certificate"><code>ssl_certificate</code></a>.</em>
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::getCertificateChain ( mixed $pem, array $domain_config, callable $callback, array $settings = array() )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_8">Parameters</h6>
+<blockquote>
+<p><strong><code>pem</code></strong></p>
+<p>A Private Key used for the certificate (the needed CSR is generated automatically using the given key in this case) or an already existing CSR in one of the following formats:</p>
+<ul>
+<li>a string containing a PEM formatted private key.</li>
+<li>a string beginning with <code>file://</code> containing the filename to read a PEM encoded private key from.<br />
+  or</li>
+<li>a string beginning with <code>file://</code> containing the filename to read a PEM encoded CSR from.</li>
+<li>a string containing the content of a CSR, PEM encoded, may start with <code>-----BEGIN CERTIFICATE REQUEST-----</code></li>
+</ul>
+<p><strong><code>domain_config</code></strong></p>
+<p>An Array defining the domains and the corresponding challenge types to get a certificate for.</p>
+<p>The first one is used as <code>Common Name</code> for the certificate.</p>
+<p>Here is an example structure:
+<div class="highlight"><pre><span></span><code><span class="x">$domain_config=array(</span>
+<span class="x">  &#39;*.example.com&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;dns-01&#39;),</span>
+<span class="x">  &#39;test.example.org&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;tls-alpn-01&#39;)</span>
+<span class="x">  &#39;test.example.net&#39;=&gt;array(&#39;challenge&#39;=&gt;&#39;http-01&#39;,&#39;docroot&#39;=&gt;&#39;/var/www/vhosts/test1.example.com&#39;),</span>
+<span class="x">);</span>
+</code></pre></div></p>
+<blockquote>
+<p>Hint: Wildcard certificates (<code>*.example.com</code>) are only supported with the <code>dns-01</code> challenge type.</p>
+</blockquote>
+<p><code>challenge</code> is mandatory and has to be one of <code>http-01</code>, <code>dns-01</code> or <code>tls-alpn-01</code>.
+All other keys are optional and up to you to be used and are later available in the callback function as <code>$opts['config']</code>
+(see the <a href="#libraries-skoerfgen-index-get-certificate-using-http-01-challenge">http-01 example</a> where <code>docroot</code> is used this way)</p>
+<p><strong><code>callback</code></strong></p>
+<p>Callback function which gets invoked every time a challenge needs to be fulfilled.
+<div class="highlight"><pre><span></span><code><span class="x">callable callback ( array $opts )</span>
+</code></pre></div></p>
+<p>Inside a callback function you can return another callback function, which gets invoked after the verification completed and the challenge tokens can be removed again.</p>
+<blockquote>
+<p>Hint: To get access to variables of the parent scope inside the callback function use the <a href="http://php.net/manual/en/functions.anonymous.php"><code>use</code></a> languange construct:
+<div class="highlight"><pre><span></span><code><span class="x">$handler=function($opts) use ($variable_from_parent_scope){};</span>
+<span class="x">                         ^^^</span>
+</code></pre></div></p>
+</blockquote>
+<p>The <code>$opts</code> array passed to the callback function contains the following keys:</p>
+<blockquote>
+<p><strong><code>$opts['domain']</code></strong></p>
+<p>Domain name to be validated.</p>
+<p><strong><code>$opts['config']</code></strong></p>
+<p>Corresponding element of the <code>domain_config</code> array.</p>
+<p><strong><code>$opts['key']</code></strong> and <strong><code>$opts['value']</code></strong></p>
+<p>Contain the following, depending on the chosen challenge type:</p>
+<table>
+<thead>
+<tr>
+<th>Challenge Type</th>
+<th><code>$opts['key']</code></th>
+<th><code>$opts['value']</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>http-01</td>
+<td>path + filename</td>
+<td>file contents</td>
+</tr>
+<tr>
+<td>dns-01</td>
+<td>TXT Resource Record Name</td>
+<td>TXT Resource Record Value</td>
+</tr>
+<tr>
+<td>tls-alpn-01</td>
+<td>unused</td>
+<td>token used in the acmeIdentifier extension of the verification certificate; use <a href="#libraries-skoerfgen-index-acmecertgeneratealpncertificate">generateALPNCertificate</a> to generate the verification certificate from that token. (see the <a href="#libraries-skoerfgen-index-get-certificate-using-all-http-01dns-01-and-tls-alpn-01-challenge-types-together">tls-alpn-01 example</a>)</td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<p><strong><code>settings</code></strong> (optional)</p>
+<p>This array can have the following keys:</p>
+<blockquote>
+<p><strong><code>authz_reuse</code></strong> (boolean / default: <code>TRUE</code>)</p>
+<p>If <code>FALSE</code> the callback function is always called for each domain and does not get skipped due to possibly already valid authorizations (authz) that are reused. This is achieved by deactivating already valid authorizations before getting new ones.</p>
+<blockquote>
+<p>Hint: Under normal circumstances this is only needed when testing the callback function, not in production!</p>
+</blockquote>
+<p><strong><code>notBefore</code></strong> / <strong><code>notAfter</code></strong> (mixed)</p>
+<p>can be one of the following:
+* a string containing a RFC 3339 formated date
+* a timestamp (integer)</p>
+<p>Example: Certificate valid for 3 days:
+<div class="highlight"><pre><span></span><code><span class="x">array( &#39;notAfter&#39; =&gt; time() + (60*60*24) * 3 )</span>
+</code></pre></div>
+or
+<div class="highlight"><pre><span></span><code><span class="x">array( &#39;notAfter&#39; =&gt; &#39;1970-01-01T01:22:17+01:00&#39; )</span>
+</code></pre></div></p>
+</blockquote>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_11">Return Values</h6>
+<blockquote>
+<p>Returns a PEM encoded certificate chain.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_10">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured obtaining the certificate.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetcertificatechains">ACMECert::getCertificateChains</h3>
+<p>Get all (default and alternate) certificate-chains.
+This function takes the same arguments as the <a href="#libraries-skoerfgen-index-acmecertgetcertificatechain">getCertificateChain</a> function above, but it returns an array of certificate chains instead of a single chain.</p>
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::getCertificateChains ( mixed $pem, array $domain_config, callable $callback, array $settings = array() )</span>
+</code></pre></div>
+<h6 id="libraries-skoerfgen-index-return-values_12">Return Values</h6>
+<blockquote>
+<p>Returns an array of PEM encoded certificate chains.</p>
+<p>The keys of the returned array correspond to the issuer <code>Common Name</code> (CN) of the topmost (closest to the root certificate) intermediate certificate.</p>
+<p>The first element of the returned array is the default chain.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_11">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured obtaining the certificate chains.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertrevoke">ACMECert::revoke</h3>
+<p>Revoke certificate.
+<div class="highlight"><pre><span></span><code><span class="x">public void ACMECert::revoke ( mixed $pem )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_9">Parameters</h6>
+<blockquote>
+<p><strong><code>pem</code></strong></p>
+<p>can be one of the following:
+* a string beginning with <code>file://</code> containing the filename to read a PEM encoded certificate or certificate-chain from.
+* a string containing the content of a certificate or certificate-chain, PEM encoded, may start with <code>-----BEGIN CERTIFICATE-----</code></p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_13">Return Values</h6>
+<blockquote>
+<p>No value is returned.</p>
+<p>If the function completes without Exception, the certificate was successully revoked.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_12">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured revoking the certificate.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgeneratecsr">ACMECert::generateCSR</h3>
+<p>Generate CSR for a set of domains.
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::generateCSR ( mixed $private_key, array $domains )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_10">Parameters</h6>
+<blockquote>
+<p><strong><code>private_key</code></strong></p>
+<p>can be one of the following:
+* a string containing a PEM formatted private key.
+* a string beginning with <code>file://</code> containing the filename to read a PEM formatted private key from.</p>
+<p><strong><code>domains</code></strong></p>
+<p>Array of domains</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_14">Return Values</h6>
+<blockquote>
+<p>Returns the generated CSR as string.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_13">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the CSR could not be generated.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgeneratealpncertificate">ACMECert::generateALPNCertificate</h3>
+<p>Generate a self signed verification certificate containing the acmeIdentifier extension used in <strong><code>tls-alpn-01</code></strong> challenge.
+<div class="highlight"><pre><span></span><code><span class="x">public string ACMECert::generateALPNCertificate ( mixed $private_key, string $domain, string $token )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_11">Parameters</h6>
+<blockquote>
+<p><strong><code>private_key</code></strong></p>
+<p>private key used for the certificate.</p>
+<p>can be one of the following:
+* a string containing a PEM formatted private key.
+* a string beginning with <code>file://</code> containing the filename to read a PEM formatted private key from.</p>
+<p><strong><code>domain</code></strong></p>
+<p>domain name to be validated.</p>
+<p><strong><code>token</code></strong></p>
+<p>verification token.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_15">Return Values</h6>
+<blockquote>
+<p>Returns a PEM encoded verification certificate.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_14">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the certificate could not be generated.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertparsecertificate">ACMECert::parseCertificate</h3>
+<p>Get information about a certificate.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::parseCertificate ( mixed $pem )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_12">Parameters</h6>
+<blockquote>
+<p><strong><code>pem</code></strong></p>
+<p>can be one of the following:
+* a string beginning with <code>file://</code> containing the filename to read a PEM encoded certificate or certificate-chain from.
+* a string containing the content of a certificate or certificate-chain, PEM encoded, may start with <code>-----BEGIN CERTIFICATE-----</code></p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_16">Return Values</h6>
+<blockquote>
+<p>Returns an array containing information about the certificate.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_15">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the certificate could not be parsed.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetremainingdays">ACMECert::getRemainingDays</h3>
+<p>Get the number of days the certificate is still valid.
+<div class="highlight"><pre><span></span><code><span class="x">public float ACMECert::getRemainingDays ( mixed $pem )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_13">Parameters</h6>
+<blockquote>
+<p><strong><code>pem</code></strong></p>
+<p>can be one of the following:
+* a string beginning with <code>file://</code> containing the filename to read a PEM encoded certificate or certificate-chain from.
+* a string containing the content of a certificate or certificate-chain, PEM encoded, may start with <code>-----BEGIN CERTIFICATE-----</code></p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_17">Return Values</h6>
+<blockquote>
+<p>Returns how many days the certificate is still valid.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_16">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if the certificate could not be parsed.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertsplitchain">ACMECert::splitChain</h3>
+<p>Split a string containing a PEM encoded certificate chain into an array of individual certificates.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::splitChain ( string $pem )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_14">Parameters</h6>
+<blockquote>
+<p><strong><code>pem</code></strong>
+* a certificate-chain as string, PEM encoded.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_18">Return Values</h6>
+<blockquote>
+<p>Returns an array of PEM encoded individual certificates.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_17">Errors/Exceptions</h6>
+<blockquote>
+<p>None</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetcaaidentities">ACMECert::getCAAIdentities</h3>
+<p>Get a list of all CAA Identities for the selected CA. (Useful for setting up CAA DNS Records)
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::getCAAIdentities()</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-return-values_19">Return Values</h6>
+<blockquote>
+<p>Returns an array containing all CAA Identities for the selected CA.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_18">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured getting the CAA Identities.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgetsan">ACMECert::getSAN</h3>
+<p>Get all Subject Alternative Names of given certificate.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::getSAN( mixed $pem )</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-parameters_15">Parameters</h6>
+<blockquote>
+<p><strong><code>pem</code></strong></p>
+<p>can be one of the following:
+* a string beginning with <code>file://</code> containing the filename to read a PEM encoded certificate or certificate-chain from.
+* a string containing the content of a certificate or certificate-chain, PEM encoded, may start with <code>-----BEGIN CERTIFICATE-----</code></p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-return-values_20">Return Values</h6>
+<blockquote>
+<p>Returns an array containing all Subject Alternative Names of given certificate.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_19">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>Exception</code> if an error occured getting the Subject Alternative Names.</p>
+</blockquote>
+<hr />
+<h3 id="libraries-skoerfgen-index-acmecertgettermsurl">ACMECert::getTermsURL</h3>
+<p>Get URL to Terms Of Service for the selected CA.
+<div class="highlight"><pre><span></span><code><span class="x">public array ACMECert::getTermsURL()</span>
+</code></pre></div></p>
+<h6 id="libraries-skoerfgen-index-return-values_21">Return Values</h6>
+<blockquote>
+<p>Returns a string containing a URL to the Terms Of Service for the selected CA.</p>
+</blockquote>
+<h6 id="libraries-skoerfgen-index-errorsexceptions_20">Errors/Exceptions</h6>
+<blockquote>
+<p>Throws an <code>ACME_Exception</code> if the server responded with an error message or an <code>Exception</code> if an other error occured getting the Terms Of Service.</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>MIT License</p>
+<p>Copyright (c) 2018 Stefan Körfgen</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+</blockquote></section><section class="print-page" id="libraries-skoerfgen-license"><p>MIT License</p>
+<p>Copyright (c) 2018 Stefan Körfgen</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p></section><h1 class='nav-section-title-end'>Ended: Skoerfgen</h1><h1 class='nav-section-title-end'>Ended: Libraries</h1></div>
+
+
+
+
+
+                
+
+  
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+<script id="__config" type="application/json">{"base": "/", "features": [], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+
+<script src="search/search_index.js"></script>
+
+
+    
+      <script src="assets/javascripts/bundle.d6c3db9e.min.js"></script>
+      
+        <script src="js/print-site.js"></script>
+      
+        <script src="js/arithmatex.config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
