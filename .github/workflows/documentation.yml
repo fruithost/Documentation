@@ -34,10 +34,6 @@ jobs:
                 git clone https://github.com/fruithost/Panel.git ./src/
                 git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/
                 git clone https://github.com/clean/phpdoc-md.git ./phpdoc/
-                
-            - name: Install dependencies
-              run: |
-                  cd ./phpdoc/ && composer install --prefer-dist --no-interaction --no-progress
 
             - name: Create temporary Config file
               run: |
