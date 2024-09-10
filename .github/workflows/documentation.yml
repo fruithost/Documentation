@@ -11,52 +11,24 @@ jobs:
               CI_COMMIT_MESSAGE: Build Module-Packages
               CI_COMMIT_AUTHOR: fruithost | Modules Builder
               
-        strategy:
-            matrix:
-                php: [8.1]
-
-        name: PHP ${{ matrix.php }}
-
         steps:
             - name: Checkout repository
               uses: actions/checkout@v2
-              
-            - name: Setup PHP
-              uses: shivammathur/setup-php@v2
-              with:
-                  php-version: ${{ matrix.php-version }}
-                  coverage: ${{ matrix.coverage }}
-                  tools: composer:v2
-                  ini-values: date.timezone='UTC'
-            
+           
             - name: Get Sources
               run: |
                 git clone https://github.com/fruithost/Panel.git ./src/
-                git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/
-                git clone https://github.com/clean/phpdoc-md.git ./phpdoc/
-
-            - name: Create temporary Config file
-              run: |
-                    touch ./config.php
-                    echo "<?php" >> ./config.php
-                    echo "return (object)[" >> ./config.php
-                    echo "'rootNamespace' => 'Clean\PhpDocMd\Example'," >> ./config.php
-                    echo "'destDirectory' => 'docs'," >> ./config.php
-                    echo "'format' => 'github'," >> ./config.php
-                    echo "'destDirectory' => 'docs'," >> ./config.php
-                    echo "'classes' => [" >> ./config.php
-                    echo "'src\**'" >> ./config.php
-                    echo "]];" >> ./config.php
-                                 
-            - name: Install dependencies
-              run: |
-                  composer install --working-dir=./phpdoc/ --prefer-dist --no-interaction --no-progress
-                  
-            - name: Generating documentation...
-              run: |
-                  ./phpdoc/bin/phpdoc-md -h
-                  ./phpdoc/bin/phpdoc-md ./config.php
-             
+                git clone https://github.com/fruithost/Documentation.wiki.git ./wiki/                                 
+                       
+            - name: Update wiki with PHP project documentation
+              uses: impresscms-dev/phpdocs-wiki-update-action@v2.2.20
+              with:
+                  engine: clean/phpdoc-md
+                  class_root_namespace: fruithost
+                  setup_php: true
+                  include: |
+                    src\**
+                    
             - name: Commit changes
               if: github.event_name == 'push'
               run: |
