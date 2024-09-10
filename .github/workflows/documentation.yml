@@ -1,0 +1,34 @@
+name: Create Documentation
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env: 
+      CI_COMMIT_MESSAGE: Build Documentation
+      CI_COMMIT_AUTHOR: fruithost | Documentation Builder
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: 'en'
+              
+
+      - name: Setup PHP Action
+        uses: shivammathur/setup-php@2.31.1
+        with:
+           php-version: '8.3'
+
+      - name: Print PHP version
+        run: echo ${{ steps.setup-php.outputs.php-version }}
+  
+      # Build steps
+      - name: Build docs
+        if: github.event_name == 'push'
+        run: |
+          git clone --depth=1 https://github.com/fruithost/Panel.git src-panel
+          git clone --depth=1 https://github.com/php/doc-base.git doc-base
+          git clone --depth=1 https://github.com/php/doc-en.git en
+          php doc-base/configure.php --enable-xml-details --disable-libxml-check --redirect-stderr-to-stdout --with-lang=en
