@@ -47,7 +47,7 @@ apt-get install apache2 -y
 apache2 -v
 ```
 
-### MySQL (we recommend `MariaDB` insteadf of `MySQL`)
+### MySQL (we recommend `MariaDB` instead of `MySQL`)
 ```shell
 # Adding MariaDB Repository
 sudo apt-get install apt-transport-https curl
@@ -71,7 +71,7 @@ mysql -u root -p"$mysqlpassword" -e "DROP DATABASE IF EXISTS test";
 ```
 
 Please be sure to backup the following file: `/etc/mysql/my.cnf` and add an symlink to
-`/etc/fruithost/config/mysql/global.cnf`
+`/etc/fruithost/config/mysql/global.cnf` via `ln -s /etc/fruithost/config/mysql/global.cnf /etc/mysql/my.cnf`
 
 ### Install PHP (we recommend `PHP 8.2`)
 ```shell
@@ -123,5 +123,5 @@ service apache2 restart
 apt-get install rsyslog rsyslog-mysql 
 ```
 
-If you following these steps, all recommended software is preinstalled for `fruithost`.
+If you follow these steps, all recommended software get preinstalled for `fruithost`.
 After pre-installation, you must upload all `fruithost` files and configure all necessary endpoints.
